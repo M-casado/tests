@@ -1,0 +1,12 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "type": "object",
+    "properties": {
+        "smaller": {
+            "type": "number",
+            "maximum": {"$data": "1/larger"}
+        },
+        "larger": {"type": "number"}
+    },
+    "required": ["larger", "smaller"]
+}

@@ -1,0 +1,13 @@
+{
+    "type": "object",
+    "required": ["MD5_1", "MD5_2"],
+    "properties": {
+      "MD5_1": {
+        "type": "string"
+      },
+      "MD5_2": {
+        "type": "string",
+        "not": { "const": { "$data": "1/MD5_1" } }
+      }
+    }
+  }
