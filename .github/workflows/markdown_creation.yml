@@ -22,4 +22,5 @@ jobs:
           # Full git history is needed to get a proper list of changed files within `super-linter`
           fetch-depth: 0
 
-      -  run: npm install -g @adobe/jsonschema2md 
+      - run: npm install -g @adobe/jsonschema2md 
+      - run: jsonschema2md --help
