@@ -1,12 +1,11 @@
 # This workflow executes several linters on changed files whenever
-# code is pushed or a pull request openned (this one in "main" branch).
+# a pull request is openned (or new code pushed to it) in the main branch
 #
 # For more information, check:
 # https://github.com/github/super-linter
 name: super-linter
 
 on:
-  push:
   pull_request:
     branches: [ main ]
 
