@@ -1,16 +1,19 @@
-# This workflow executes several linters on changed files whenever
-# a pull request is openned (or new code pushed to it) in the main branch
-#
-# For more information, check:
-# https://github.com/github/super-linter
-name: super-linter
+# This workflow executes bash commands to automatically create the
+# automatic markdown documentation of our JSON browser based on their
+# JSON schemas. It is executed when a PR merges with the "main" branch
 
+# For more information, check:
+#   https://github.com/EbiEga/ega-metadata-schema/tree/main/docs/json_browser
+#   https://docs.github.com/en/enterprise-server@3.3/actions/using-workflows/events-that-trigger-workflows#running-your-workflow-when-a-pull-request-merges
+name: jsonschema-2-md
+
+#! Change!
 on:
   pull_request:
     branches: [ main ]
 
 jobs:
-  run-upser-linter:
+  jsonschema-2-md:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -19,9 +22,4 @@ jobs:
           # Full git history is needed to get a proper list of changed files within `super-linter`
           fetch-depth: 0
 
-      - name: Lint code
-        # Checks the code against linters of different formats and languages
-        uses: github/super-linter@v4
-        env:
-          VALIDATE_ALL_CODEBASE: false
-          DEFAULT_BRANCH: main
+      -  run: npm install -g @adobe/jsonschema2md 
