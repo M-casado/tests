@@ -27,8 +27,11 @@ jobs:
         # After installing the program, we check if previous markdown exists. If so, we remove it.
         # Then we create new markdowns.
         run: |
-          markdown_dir="~/docs/json_broswer/markdowns/"
-          schemas_dir="~/schemas/"
+          echo "-----"
+          pwd 
+
+          markdown_dir="./docs/json_broswer/markdowns/"
+          schemas_dir="./schemas/"
           
           npm install -g @adobe/jsonschema2md 
 
