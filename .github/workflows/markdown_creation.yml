@@ -45,7 +45,10 @@ jobs:
         run: |
           git config --global user.name "M-casado"
           git config --global user.email "mcasadob@ebi.ac.uk"
+          echo "___"
+          git status
 
+          echo "----_----"
           git add -A
           git commit -m "commit message"
           git push
