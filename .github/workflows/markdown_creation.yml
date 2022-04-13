@@ -30,15 +30,17 @@ jobs:
           echo "-----"
           pwd 
 
-          markdown_dir="./docs/json_browser/markdowns"
-          ls $markdown_dir/
+          ls $INPUT_MARKDOWN_DIR/
           schemas_dir="./schemas/"
           
-          if [ -d "$markdown_dir" ] && [ -n "$(ls -A "$markdown_dir")" ]; then
-            rm -f $markdown_dir/*.md
+          if [ -d "$INPUT_MARKDOWN_DIR" ] && [ -n "$(ls -A "$INPUT_MARKDOWN_DIR")" ]; then
+            rm -f $INPUT_MARKDOWN_DIR/*.md
           fi
 
-          ls $markdown_dir/
+          ls $INPUT_MARKDOWN_DIR/
+        
+        with:
+          markdown_dir: ./docs/json_browser/markdowns
 
 
       - name: Commit and push changes
@@ -49,6 +51,9 @@ jobs:
           git status
 
           echo "----_----"
-          git add -A
+          git add $INPUT_MARKDOWN_DIR/*
           git commit -m "commit message"
           git push
+
+        with:
+          markdown_dir: ./docs/json_browser/markdowns
