@@ -5,6 +5,7 @@
 # For more information, check:
 #   https://github.com/EbiEga/ega-metadata-schema/tree/main/docs/json_browser
 #   https://docs.github.com/en/enterprise-server@3.3/actions/using-workflows/events-that-trigger-workflows#running-your-workflow-when-a-pull-request-merges
+#   https://github.com/ad-m/github-push-action#example-workflow-file
 name: jsonschema-2-md
 
 #! Change!
@@ -21,40 +22,30 @@ jobs:
         with:
           # Full git history is needed to get a proper list of changed files within `super-linter`
           fetch-depth: 0
+          persist-credentials: false
 
       - name: Markdown creation
         # We first set variables. Modify if the repo's structure changes.
         # After installing the program, we check if previous markdown exists. If so, we remove it.
         # Then we create new markdowns.
         run: |
-          echo "-----"
-          pwd 
-
           markdown_dir="./docs/json_browser/markdowns"
-          ls $INPUT_MARKDOWN_DIR/
           schemas_dir="./schemas/"
           
-          if [ -d "$INPUT_MARKDOWN_DIR" ] && [ -n "$(ls -A "$INPUT_MARKDOWN_DIR")" ]; then
-            rm -f $INPUT_MARKDOWN_DIR/*.md
+          if [ -d "$markdown_dir" ] && [ -n "$(ls -A "$markdown_dir")" ]; then
+            rm -f $markdown_dir/*.md
           fi
 
-          ls $INPUT_MARKDOWN_DIR/
-        
-        with:
-          markdown_dir: ./docs/json_browser/markdowns
-
-
-      - name: Commit and push changes
+      - name: Commit changes
         run: |
-          git config --global user.name "M-casado"
-          git config --global user.email "mcasadob@ebi.ac.uk"
-          echo "___"
-          git status
+          markdown_dir="./docs/json_browser/markdowns"
+          git config --local  user.name "GitHub Actions Bot"
+          git config --local  user.email "<>"
+          git add $markdown_dir/*
+          git commit -m "TEST-COMMIT"
 
-          echo "----_----"
-          git add $INPUT_MARKDOWN_DIR/*
-          git commit -m "commit message"
-          git push
-
-        with:
-          markdown_dir: ./docs/json_browser/markdowns
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ github.ref }}
