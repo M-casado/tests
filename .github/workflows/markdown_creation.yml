@@ -30,6 +30,7 @@ jobs:
           echo "-----"
           pwd 
 
+          markdown_dir="./docs/json_browser/markdowns"
           ls $INPUT_MARKDOWN_DIR/
           schemas_dir="./schemas/"
           
