@@ -33,10 +33,14 @@ jobs:
           markdown_dir="./docs/json_broswer/markdowns/"
           schemas_dir="./schemas/"
           
-          npm install -g @adobe/jsonschema2md 
-
           if [ -d "$markdown_dir" ] && [ -n "$(ls -A "$markdown_dir")" ]; then
             rm -f $markdown_dir*.md
           fi
-          
-          jsonschema2md -d $schemas_dir -o $markdown_dir -e "json" -x -
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "your username"
+
+          git add -A
+          git commit -m "commit message"
+          git push
