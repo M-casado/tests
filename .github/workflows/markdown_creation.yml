@@ -27,16 +27,19 @@ jobs:
         # After installing the program, we check if previous markdown exists. If so, we remove it.
         # Then we create new markdowns.
         run: |
-          markdown_dir="~/docs/json_broswer/markdowns/"
           echo "-----"
           pwd 
 
-          markdown_dir="./docs/json_broswer/markdowns/"
+          markdown_dir="./docs/json_broswer/markdowns"
+          ls $markdown_dir/
           schemas_dir="./schemas/"
           
           if [ -d "$markdown_dir" ] && [ -n "$(ls -A "$markdown_dir")" ]; then
-            rm -f $markdown_dir*.md
+            rm -f $markdown_dir/*.md
           fi
+
+          ls $markdown_dir/
+
 
       - name: Commit and push changes
         run: |
