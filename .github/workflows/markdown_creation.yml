@@ -16,7 +16,9 @@ jobs:
       - name: save current date
         run: |
           # do some operation that changes a file in the git repo
-          date > time.txt
+          mkdir -p ./test/created_by_workflow
+          rm -f ./test/created_by_workflow/*
+          cp ./test/test_a.txt ./test/created_by_workflow/
 
       - name: setup git config
         run: |
