@@ -31,6 +31,6 @@ jobs:
           # Stage the file, commit and push
           git show-ref
           git branch
-          git add time.txt
+          git add -A
           git commit -m "new date commit"
           git push origin main
