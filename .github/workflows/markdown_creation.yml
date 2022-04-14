@@ -44,8 +44,10 @@ jobs:
           git add $markdown_dir/*
           git commit -m "TEST-COMMIT"
 
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref }}
+      - name: Push code
+        run: |
+          # Pull first
+          git pull --rebase origin "${GITHUB_REF}"
+
+          # Push afterwards
+          git push origin "${GITHUB_REF}"
