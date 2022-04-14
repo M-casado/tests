@@ -46,8 +46,4 @@ jobs:
 
       - name: Push code
         run: |
-          # Pull first
-          git pull --rebase origin "${GITHUB_REF}"
-
-          # Push afterwards
-          git push origin "${GITHUB_REF}"
+          git branch --show-current
