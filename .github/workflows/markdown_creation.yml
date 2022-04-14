@@ -5,7 +5,6 @@
 # For more information, check:
 #   https://github.com/EbiEga/ega-metadata-schema/tree/main/docs/json_browser
 #   https://docs.github.com/en/enterprise-server@3.3/actions/using-workflows/events-that-trigger-workflows#running-your-workflow-when-a-pull-request-merges
-#   https://github.com/ad-m/github-push-action#example-workflow-file
 name: jsonschema-2-md
 
 #! Change!
@@ -19,10 +18,10 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
+        # https://github.com/ad-m/github-push-action#example-workflow-file
         with:
           # Full git history is needed to get a proper list of changed files within `super-linter`
           fetch-depth: 0
-          persist-credentials: false
 
       - name: Markdown creation
         # We first set variables. Modify if the repo's structure changes.
@@ -36,11 +35,12 @@ jobs:
             rm -f $markdown_dir/*.md
           fi
 
-      - name: Commit changes
+      - name: Commit and push changes
+        # https://lannonbr.com/blog/2019-12-09-git-commit-in-actions
         run: |
           markdown_dir="./docs/json_browser/markdowns"
-          git config --local  user.name "GitHub Actions Bot"
-          git config --local  user.email "<>"
+          git config --local user.name "GitHub Actions Bot"
+          git config --local user.email "<>"
           git add $markdown_dir/*
           git commit -m "TEST-COMMIT"
 
