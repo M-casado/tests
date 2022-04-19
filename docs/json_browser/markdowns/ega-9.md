@@ -26,7 +26,7 @@ one (and only one) of
 | :------------------------------------------------------------------ | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [object\_id](#object_id)                                            | Merged   | Required | cannot be null | [EGA Experiment metadata schema](ega-9-properties-objects-ids-block.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.experiment.json#/properties/object_id")                                          |
 | [schema\_descriptor](#schema_descriptor)                            | `object` | Optional | cannot be null | [EGA Experiment metadata schema](ega-12-definitions-schema-descriptor.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.experiment.json#/properties/schema_descriptor")                                |
-| [object\_title](#object_title)                                      | `string` | Optional | cannot be null | [EGA Experiment metadata schema](ega-9-properties-title-of-the-experiment.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.experiment.json#/properties/object_title")                                 |
+| [object\_title](#object_title)                                      | `string` | Optional | cannot be null | [EGA Experiment metadata schema](ega-9-properties-test.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.experiment.json#/properties/object_title")                                                    |
 | [object\_description](#object_description)                          | `string` | Optional | cannot be null | [EGA Experiment metadata schema](ega-9-properties-description-of-the-experiment.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.experiment.json#/properties/object_description")                     |
 | [experiment\_protocols](#experiment_protocols)                      | `array`  | Required | cannot be null | [EGA Experiment metadata schema](ega-9-properties-protocols-related-to-an-experiment.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.experiment.json#/properties/experiment_protocols")              |
 | [targeted\_loci](#targeted_loci)                                    | `array`  | Optional | cannot be null | [EGA Experiment metadata schema](ega-9-properties-loci-of-the-targeted-genomic-feature.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.experiment.json#/properties/targeted_loci")                   |
@@ -94,15 +94,15 @@ An informative experiment title that should serve as an overview of the experime
 
 *   is optional
 
-*   Type: `string` ([Title of the experiment](ega-9-properties-title-of-the-experiment.md))
+*   Type: `string` ([TEST](ega-9-properties-test.md))
 
 *   cannot be null
 
-*   defined in: [EGA Experiment metadata schema](ega-9-properties-title-of-the-experiment.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.experiment.json#/properties/object_title")
+*   defined in: [EGA Experiment metadata schema](ega-9-properties-test.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.experiment.json#/properties/object_title")
 
 ### object\_title Type
 
-`string` ([Title of the experiment](ega-9-properties-title-of-the-experiment.md))
+`string` ([TEST](ega-9-properties-test.md))
 
 ### object\_title Examples
 
