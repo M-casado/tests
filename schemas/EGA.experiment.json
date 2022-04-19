@@ -36,7 +36,7 @@
 
       "object_title": {
         "type": "string",
-        "title": "Title of the experiment",
+        "title": "TEST",
         "description": "An informative experiment title that should serve as an overview of the experiment, including: used technology, samples, purpose... (e.g. 'Affymetrix-X microarray of human breast cancer cell line MCF-7 treated with tamoxifen compared with untreated controls'). This short text can be used to call out experiment records in searches or in displays.",
         "examples": [ "Affymetrix-X microarray of human breast cancer cell line MCF-7 treated with tamoxifen compared with untreated controls" ]
       },
