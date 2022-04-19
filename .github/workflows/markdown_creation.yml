@@ -5,13 +5,15 @@
 
 # For more information, check:
 #   https://github.com/EbiEga/ega-metadata-schema/tree/main/docs/json_browser
-#   https://docs.github.com/en/enterprise-server@3.3/actions/using-workflows/events-that-trigger-workflows#running-your-workflow-when-a-pull-request-merges
+#   https://docs.github.com/en/enterprise-server@3.3/actions/using-workflows/
+#     events-that-trigger-workflows#running-your-workflow-when-a-pull-
+#     request-merges
 #   https://lannonbr.com/blog/2019-12-09-git-commit-in-actions
 name: JSON Schemas to Markdown (markdown_creation.yml)
 on:
   # Every closed PR will push changes to main, and after that, this executes
   push:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
   markdown-generation:
