@@ -1,0 +1,18 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "https://raw.githubusercontent.com/M-casado/tests/main/biovalidator_reference_test/referenced_schema.json",
+    "type": "object",
+    "definitions": {
+        "referenced_prop": {
+            "type": "string",
+            "title": "this property will be referenced by the 'referencing_prop' and will only accept children of ontology PATO:0001894.",
+            "graphRestriction":  {
+                "ontologies" : ["obo:efo"],
+                "classes": ["PATO:0001894"],
+                "relations": ["rdfs:subClassOf"],
+                "direct": false,
+                "include_self": false
+            }
+        }
+    }
+}

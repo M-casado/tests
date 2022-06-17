@@ -1,0 +1,12 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "https://raw.githubusercontent.com/M-casado/tests/main/biovalidator_reference_test/test_schema.json",
+    "type": "object",
+    "required": ["referencing_prop" ],
+    "additionalProperties": false,
+    "properties": {
+        "referencing_prop": {
+            "$ref": "./referenced_schema.json#/definitions/referenced_prop"
+        }
+    }
+}
