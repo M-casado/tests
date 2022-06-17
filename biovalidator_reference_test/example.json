@@ -1,5 +1,6 @@
 {
     "schema": {
+        "$ref": "https://raw.githubusercontent.com/M-casado/tests/main/biovalidator_reference_test/test_schema.json"
     },
     "data": {
         "referencing_prop": "PATO:000384"
