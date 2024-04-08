@@ -26,13 +26,13 @@ unknown ([Check that assay's EGA ID (EGAR) is correct](ega-11-properties-objects
 
 `ega_accession`
 
-*   is optional
+* is optional
 
-*   Type: `string` ([Pattern of an EGA assay's ID (EGAR...)](ega-11-properties-objects-ids-block-allof-check-that-assays-ega-id-egar-is-correct-properties-pattern-of-an-ega-assays-id-egar.md))
+* Type: `string` ([Pattern of an EGA assay's ID (EGAR...)](ega-11-properties-objects-ids-block-allof-check-that-assays-ega-id-egar-is-correct-properties-pattern-of-an-ega-assays-id-egar.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA assay metadata schema](ega-11-properties-objects-ids-block-allof-check-that-assays-ega-id-egar-is-correct-properties-pattern-of-an-ega-assays-id-egar.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.assay.json#/properties/object_id/allOf/1/properties/ega_accession")
+* defined in: [EGA assay metadata schema](ega-11-properties-objects-ids-block-allof-check-that-assays-ega-id-egar-is-correct-properties-pattern-of-an-ega-assays-id-egar.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.assay.json#/properties/object_id/allOf/1/properties/ega_accession")
 
 ### ega\_accession Type
 

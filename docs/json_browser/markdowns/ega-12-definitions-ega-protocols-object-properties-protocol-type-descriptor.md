@@ -28,13 +28,13 @@ Classification by type of the protocol (e.g. 'Sample collection'), to be chosen 
 
 `protocol_type`
 
-*   is required
+* is required
 
-*   Type: `string` ([Type of protocol](ega-12-definitions-ega-protocols-object-properties-protocol-type-descriptor-properties-type-of-protocol.md))
+* Type: `string` ([Type of protocol](ega-12-definitions-ega-protocols-object-properties-protocol-type-descriptor-properties-type-of-protocol.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA common metadata definitions](ega-12-definitions-ega-protocols-object-properties-protocol-type-descriptor-properties-type-of-protocol.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-definitions.json#/definitions/protocols_object/properties/protocol_type_descriptor/properties/protocol_type")
+* defined in: [EGA common metadata definitions](ega-12-definitions-ega-protocols-object-properties-protocol-type-descriptor-properties-type-of-protocol.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-definitions.json#/definitions/protocols_object/properties/protocol_type_descriptor/properties/protocol_type")
 
 ### protocol\_type Type
 
@@ -71,13 +71,13 @@ Name of the protocol's subtype. We highly recommend the usage of names given to 
 
 `protocol_subtype`
 
-*   is optional
+* is optional
 
-*   Type: `string` ([Subtype of the protocol](ega-12-definitions-ega-protocols-object-properties-protocol-type-descriptor-properties-subtype-of-the-protocol.md))
+* Type: `string` ([Subtype of the protocol](ega-12-definitions-ega-protocols-object-properties-protocol-type-descriptor-properties-subtype-of-the-protocol.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA common metadata definitions](ega-12-definitions-ega-protocols-object-properties-protocol-type-descriptor-properties-subtype-of-the-protocol.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-definitions.json#/definitions/protocols_object/properties/protocol_type_descriptor/properties/protocol_subtype")
+* defined in: [EGA common metadata definitions](ega-12-definitions-ega-protocols-object-properties-protocol-type-descriptor-properties-subtype-of-the-protocol.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-definitions.json#/definitions/protocols_object/properties/protocol_type_descriptor/properties/protocol_subtype")
 
 ### protocol\_subtype Type
 
@@ -131,13 +131,13 @@ Ontology term in CURIE format (e.g. 'EFO:0005518') of the protocol subtype. Sear
 
 `protocol_subtype_curie`
 
-*   is required
+* is required
 
-*   Type: `string` ([Compact URI (CURIE) of the protocol subtype](ega-12-definitions-ega-protocols-object-properties-protocol-type-descriptor-properties-compact-uri-curie-of-the-protocol-subtype.md))
+* Type: `string` ([Compact URI (CURIE) of the protocol subtype](ega-12-definitions-ega-protocols-object-properties-protocol-type-descriptor-properties-compact-uri-curie-of-the-protocol-subtype.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA common metadata definitions](ega-12-definitions-ega-protocols-object-properties-protocol-type-descriptor-properties-compact-uri-curie-of-the-protocol-subtype.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-definitions.json#/definitions/protocols_object/properties/protocol_type_descriptor/properties/protocol_subtype_curie")
+* defined in: [EGA common metadata definitions](ega-12-definitions-ega-protocols-object-properties-protocol-type-descriptor-properties-compact-uri-curie-of-the-protocol-subtype.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-definitions.json#/definitions/protocols_object/properties/protocol_type_descriptor/properties/protocol_subtype_curie")
 
 ### protocol\_subtype\_curie Type
 
@@ -145,7 +145,7 @@ Ontology term in CURIE format (e.g. 'EFO:0005518') of the protocol subtype. Sear
 
 all of
 
-*   [Compact URI (CURIE) pattern](ega-12-definitions-compact-uri-curie-pattern.md "check type definition")
+* [Compact URI (CURIE) pattern](ega-12-definitions-ega-protocols-object-properties-protocol-type-descriptor-properties-compact-uri-curie-of-the-protocol-subtype-allof-compact-uri-curie-pattern.md "check type definition")
 
 ### protocol\_subtype\_curie Examples
 

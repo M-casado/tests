@@ -16,9 +16,9 @@ unknown ([Check that sample EGA ID (EGAN) pattern is correct](ega-12-definitions
 
 # 1 Properties
 
-| Property                         | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                                                           |
-| :------------------------------- | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [ega\_accession](#ega_accession) | `string` | Optional | cannot be null | [EGA common metadata definitions](ega-12-definitions-pattern-of-an-ega-samples-id-egan.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-definitions.json#/definitions/sample-label-association/properties/object_id/allOf/1/properties/ega_accession") |
+| Property                         | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                                                                                                                                                                                       |
+| :------------------------------- | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [ega\_accession](#ega_accession) | `string` | Optional | cannot be null | [EGA common metadata definitions](ega-12-definitions-repeatable-sample-label-node-properties-objects-ids-block-allof-check-that-sample-ega-id-egan-pattern-is-correct-properties-pattern-of-an-ega-samples-id-egan.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-definitions.json#/definitions/sample-label-association/properties/object_id/allOf/1/properties/ega_accession") |
 
 ## ega\_accession
 
@@ -26,17 +26,17 @@ unknown ([Check that sample EGA ID (EGAN) pattern is correct](ega-12-definitions
 
 `ega_accession`
 
-*   is optional
+* is optional
 
-*   Type: `string` ([Pattern of an EGA sample's ID (EGAN...)](ega-12-definitions-pattern-of-an-ega-samples-id-egan.md))
+* Type: `string` ([Pattern of an EGA sample's ID (EGAN...)](ega-12-definitions-repeatable-sample-label-node-properties-objects-ids-block-allof-check-that-sample-ega-id-egan-pattern-is-correct-properties-pattern-of-an-ega-samples-id-egan.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA common metadata definitions](ega-12-definitions-pattern-of-an-ega-samples-id-egan.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-definitions.json#/definitions/sample-label-association/properties/object_id/allOf/1/properties/ega_accession")
+* defined in: [EGA common metadata definitions](ega-12-definitions-repeatable-sample-label-node-properties-objects-ids-block-allof-check-that-sample-ega-id-egan-pattern-is-correct-properties-pattern-of-an-ega-samples-id-egan.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-definitions.json#/definitions/sample-label-association/properties/object_id/allOf/1/properties/ega_accession")
 
 ### ega\_accession Type
 
-`string` ([Pattern of an EGA sample's ID (EGAN...)](ega-12-definitions-pattern-of-an-ega-samples-id-egan.md))
+`string` ([Pattern of an EGA sample's ID (EGAN...)](ega-12-definitions-repeatable-sample-label-node-properties-objects-ids-block-allof-check-that-sample-ega-id-egan-pattern-is-correct-properties-pattern-of-an-ega-samples-id-egan.md))
 
 ### ega\_accession Constraints
 

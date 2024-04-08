@@ -16,9 +16,9 @@ An object to contain the required metadata to identify and reach an individual o
 
 any of
 
-*   [Either the individual's name is required.](ega-12-definitions-contact-details-anyof-either-the-individuals-name-is-required.md "check type definition")
+* [Either the individual's name is required.](ega-12-definitions-contact-details-anyof-either-the-individuals-name-is-required.md "check type definition")
 
-*   [Or the institution's name is required.](ega-12-definitions-contact-details-anyof-or-the-institutions-name-is-required.md "check type definition")
+* [Or the institution's name is required.](ega-12-definitions-contact-details-anyof-or-the-institutions-name-is-required.md "check type definition")
 
 # contact\_details Properties
 
@@ -35,13 +35,13 @@ A full set of all personal names by which an individual is known and that can be
 
 `individual_full_name`
 
-*   is optional
+* is optional
 
-*   Type: `string` ([Full name of an individual](ega-12-definitions-contact-details-properties-full-name-of-an-individual.md))
+* Type: `string` ([Full name of an individual](ega-12-definitions-contact-details-properties-full-name-of-an-individual.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA common metadata definitions](ega-12-definitions-contact-details-properties-full-name-of-an-individual.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-definitions.json#/definitions/contact_details/properties/individual_full_name")
+* defined in: [EGA common metadata definitions](ega-12-definitions-contact-details-properties-full-name-of-an-individual.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-definitions.json#/definitions/contact_details/properties/individual_full_name")
 
 ### individual\_full\_name Type
 
@@ -59,13 +59,13 @@ The full name of an institution the contact belongs to. In case there are severa
 
 `institution_name`
 
-*   is optional
+* is optional
 
-*   Type: `string` ([Institution name](ega-12-definitions-contact-details-properties-institution-name.md))
+* Type: `string` ([Institution name](ega-12-definitions-contact-details-properties-institution-name.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA common metadata definitions](ega-12-definitions-contact-details-properties-institution-name.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-definitions.json#/definitions/contact_details/properties/institution_name")
+* defined in: [EGA common metadata definitions](ega-12-definitions-contact-details-properties-institution-name.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-definitions.json#/definitions/contact_details/properties/institution_name")
 
 ### institution\_name Type
 
@@ -83,13 +83,13 @@ Current email address that would be used in case the contact needs to be reached
 
 `email_address`
 
-*   is required
+* is required
 
-*   Type: `string` ([Email address](ega-12-definitions-contact-details-properties-email-address.md))
+* Type: `string` ([Email address](ega-12-definitions-contact-details-properties-email-address.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA common metadata definitions](ega-12-definitions-contact-details-properties-email-address.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-definitions.json#/definitions/contact_details/properties/email_address")
+* defined in: [EGA common metadata definitions](ega-12-definitions-contact-details-properties-email-address.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-definitions.json#/definitions/contact_details/properties/email_address")
 
 ### email\_address Type
 
@@ -117,13 +117,13 @@ Current phone number that would be used in case the contact needs to be reached.
 
 `phone_number`
 
-*   is optional
+* is optional
 
-*   Type: `string` ([Phone number](ega-12-definitions-contact-details-properties-phone-number.md))
+* Type: `string` ([Phone number](ega-12-definitions-contact-details-properties-phone-number.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA common metadata definitions](ega-12-definitions-contact-details-properties-phone-number.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-definitions.json#/definitions/contact_details/properties/phone_number")
+* defined in: [EGA common metadata definitions](ega-12-definitions-contact-details-properties-phone-number.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-definitions.json#/definitions/contact_details/properties/phone_number")
 
 ### phone\_number Type
 

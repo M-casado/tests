@@ -26,13 +26,13 @@ unknown ([Check that policy EGA ID (EGAP) is correct](ega-16-properties-objects-
 
 `ega_accession`
 
-*   is optional
+* is optional
 
-*   Type: `string` ([Pattern of an EGA policy's ID (EGAP...)](ega-12-definitions-pattern-of-an-ega-policys-id-egap.md))
+* Type: `string` ([Pattern of an EGA policy's ID (EGAP...)](ega-12-definitions-pattern-of-an-ega-policys-id-egap.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA policy metadata schema](ega-12-definitions-pattern-of-an-ega-policys-id-egap.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.policy.json#/properties/object_id/allOf/1/properties/ega_accession")
+* defined in: [EGA policy metadata schema](ega-12-definitions-pattern-of-an-ega-policys-id-egap.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.policy.json#/properties/object_id/allOf/1/properties/ega_accession")
 
 ### ega\_accession Type
 

@@ -27,13 +27,13 @@ Number of base/color calls, cycles, or flows per spot (raw sequence length or fl
 
 `spot_length`
 
-*   is optional
+* is optional
 
-*   Type: `integer` ([Spot length](ega-12-definitions-spot-descriptor-spot-decode-spec-properties-spot-length.md))
+* Type: `integer` ([Spot length](ega-12-definitions-spot-descriptor-spot-decode-spec-properties-spot-length.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA common metadata definitions](ega-12-definitions-spot-descriptor-spot-decode-spec-properties-spot-length.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-definitions.json#/definitions/spot_descriptor/items/properties/spot_length")
+* defined in: [EGA common metadata definitions](ega-12-definitions-spot-descriptor-spot-decode-spec-properties-spot-length.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-definitions.json#/definitions/spot_descriptor/items/properties/spot_length")
 
 ### spot\_length Type
 
@@ -45,13 +45,13 @@ Number of base/color calls, cycles, or flows per spot (raw sequence length or fl
 
 `read_specs`
 
-*   is required
+* is required
 
-*   Type: `object[]` ([Read spec](ega-12-definitions-spot-descriptor-spot-decode-spec-properties-read-specs-read-spec.md))
+* Type: `object[]` ([Read spec](ega-12-definitions-spot-descriptor-spot-decode-spec-properties-read-specs-read-spec.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA common metadata definitions](ega-12-definitions-spot-descriptor-spot-decode-spec-properties-read-specs.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-definitions.json#/definitions/spot_descriptor/items/properties/read_specs")
+* defined in: [EGA common metadata definitions](ega-12-definitions-spot-descriptor-spot-decode-spec-properties-read-specs.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-definitions.json#/definitions/spot_descriptor/items/properties/read_specs")
 
 ### read\_specs Type
 

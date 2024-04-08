@@ -16,7 +16,7 @@ Ontology term in CURIE format (e.g. 'EFO:0005518') of the protocol subtype. Sear
 
 all of
 
-*   [Compact URI (CURIE) pattern](ega-12-definitions-compact-uri-curie-pattern.md "check type definition")
+* [Compact URI (CURIE) pattern](ega-12-definitions-ega-protocols-object-properties-protocol-type-descriptor-properties-compact-uri-curie-of-the-protocol-subtype-allof-compact-uri-curie-pattern.md "check type definition")
 
 ## protocol\_subtype\_curie Examples
 

@@ -26,13 +26,13 @@ unknown ([Check that individual EGA ID (EGAI) is correct](ega-14-properties-obje
 
 `ega_accession`
 
-*   is optional
+* is optional
 
-*   Type: `string` ([Pattern of an EGA Individual's ID (EGAI...)](ega-12-definitions-pattern-of-an-ega-individuals-id-egai.md))
+* Type: `string` ([Pattern of an EGA Individual's ID (EGAI...)](ega-12-definitions-pattern-of-an-ega-individuals-id-egai.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA individual metadata schema](ega-12-definitions-pattern-of-an-ega-individuals-id-egai.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.individual.json#/properties/object_id/allOf/1/properties/ega_accession")
+* defined in: [EGA individual metadata schema](ega-12-definitions-pattern-of-an-ega-individuals-id-egai.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.individual.json#/properties/object_id/allOf/1/properties/ega_accession")
 
 ### ega\_accession Type
 

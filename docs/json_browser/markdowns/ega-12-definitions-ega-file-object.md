@@ -16,65 +16,65 @@ Object containing the base metadata attributes of a file object in the EGA. Thes
 
 all of
 
-*   any of
+* any of
 
-    *   [Checksum pattern check - MD5](ega-12-definitions-check-checksum-checks-based-on-its-method-anyof-checksum-pattern-check---md5.md "check type definition")
+  * [Checksum pattern check - MD5](ega-12-definitions-check-checksum-checks-based-on-its-method-anyof-checksum-pattern-check---md5.md "check type definition")
 
-    *   [Checksum pattern check - SHA-256](ega-12-definitions-check-checksum-checks-based-on-its-method-anyof-checksum-pattern-check---sha-256.md "check type definition")
+  * [Checksum pattern check - SHA-256](ega-12-definitions-check-checksum-checks-based-on-its-method-anyof-checksum-pattern-check---sha-256.md "check type definition")
 
-*   any of
+* any of
 
-    *   [CEL Filename pattern-check](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-cel-filename-pattern-check.md "check type definition")
+  * [CEL Filename pattern-check](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-cel-filename-pattern-check.md "check type definition")
 
-    *   [TSV Filename pattern-check](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-tsv-filename-pattern-check.md "check type definition")
+  * [TSV Filename pattern-check](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-tsv-filename-pattern-check.md "check type definition")
 
-    *   [ADF Filename pattern-check](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-adf-filename-pattern-check.md "check type definition")
+  * [ADF Filename pattern-check](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-adf-filename-pattern-check.md "check type definition")
 
-    *   [FASTQ Filename pattern-check](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-fastq-filename-pattern-check.md "check type definition")
+  * [FASTQ Filename pattern-check](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-fastq-filename-pattern-check.md "check type definition")
 
-    *   [FASTA Filename pattern-check](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-fasta-filename-pattern-check.md "check type definition")
+  * [FASTA Filename pattern-check](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-fasta-filename-pattern-check.md "check type definition")
 
-    *   [SDRF Filename pattern-check](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-sdrf-filename-pattern-check.md "check type definition")
+  * [SDRF Filename pattern-check](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-sdrf-filename-pattern-check.md "check type definition")
 
-    *   [IDF Filename pattern-check](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-idf-filename-pattern-check.md "check type definition")
+  * [IDF Filename pattern-check](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-idf-filename-pattern-check.md "check type definition")
 
-    *   [VCF Filename pattern-check](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-vcf-filename-pattern-check.md "check type definition")
+  * [VCF Filename pattern-check](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-vcf-filename-pattern-check.md "check type definition")
 
-    *   [SRA Filename pattern-check](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-sra-filename-pattern-check.md "check type definition")
+  * [SRA Filename pattern-check](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-sra-filename-pattern-check.md "check type definition")
 
-    *   [SRF Filename pattern-check](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-srf-filename-pattern-check.md "check type definition")
+  * [SRF Filename pattern-check](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-srf-filename-pattern-check.md "check type definition")
 
-    *   [SFF Filename pattern-check](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-sff-filename-pattern-check.md "check type definition")
+  * [SFF Filename pattern-check](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-sff-filename-pattern-check.md "check type definition")
 
-    *   [BAM Filename pattern-check](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-bam-filename-pattern-check.md "check type definition")
+  * [BAM Filename pattern-check](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-bam-filename-pattern-check.md "check type definition")
 
-    *   [CRAM Filename pattern-check](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-cram-filename-pattern-check.md "check type definition")
+  * [CRAM Filename pattern-check](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-cram-filename-pattern-check.md "check type definition")
 
-    *   [XLSX Filename pattern-check](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-xlsx-filename-pattern-check.md "check type definition")
+  * [XLSX Filename pattern-check](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-xlsx-filename-pattern-check.md "check type definition")
 
-    *   [CSV Filename pattern-check](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-csv-filename-pattern-check.md "check type definition")
+  * [CSV Filename pattern-check](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-csv-filename-pattern-check.md "check type definition")
 
-    *   [BED Filename pattern-check](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-bed-filename-pattern-check.md "check type definition")
+  * [BED Filename pattern-check](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-bed-filename-pattern-check.md "check type definition")
 
-    *   [IDAT Filename pattern-check](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-idat-filename-pattern-check.md "check type definition")
+  * [IDAT Filename pattern-check](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-idat-filename-pattern-check.md "check type definition")
 
-    *   [MAP Filename pattern-check](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-map-filename-pattern-check.md "check type definition")
+  * [MAP Filename pattern-check](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-map-filename-pattern-check.md "check type definition")
 
-    *   [PED Filename pattern-check](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-ped-filename-pattern-check.md "check type definition")
+  * [PED Filename pattern-check](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-ped-filename-pattern-check.md "check type definition")
 
-    *   [BIM Filename pattern-check](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-bim-filename-pattern-check.md "check type definition")
+  * [BIM Filename pattern-check](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-bim-filename-pattern-check.md "check type definition")
 
-    *   [FAM Filename pattern-check](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-fam-filename-pattern-check.md "check type definition")
+  * [FAM Filename pattern-check](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-fam-filename-pattern-check.md "check type definition")
 
-    *   [TXT Filename pattern-check](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-txt-filename-pattern-check.md "check type definition")
+  * [TXT Filename pattern-check](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-txt-filename-pattern-check.md "check type definition")
 
-    *   [EXP Filename pattern-check](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-exp-filename-pattern-check.md "check type definition")
+  * [EXP Filename pattern-check](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-exp-filename-pattern-check.md "check type definition")
 
-    *   [GPR Filename pattern-check](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-gpr-filename-pattern-check.md "check type definition")
+  * [GPR Filename pattern-check](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-gpr-filename-pattern-check.md "check type definition")
 
-    *   [PY Filename pattern-check](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-py-filename-pattern-check.md "check type definition")
+  * [PY Filename pattern-check](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-py-filename-pattern-check.md "check type definition")
 
-    *   [SH Filename pattern-check](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-sh-filename-pattern-check.md "check type definition")
+  * [SH Filename pattern-check](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-sh-filename-pattern-check.md "check type definition")
 
 # items Properties
 
@@ -93,13 +93,13 @@ The full name of a file, including all of their file extensions (e.g. .gpg, .md5
 
 `filename`
 
-*   is required
+* is required
 
-*   Type: `string` ([Filename](ega-12-definitions-ega-file-object-properties-filename.md))
+* Type: `string` ([Filename](ega-12-definitions-ega-file-object-properties-filename.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA common metadata definitions](ega-12-definitions-ega-file-object-properties-filename.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-definitions.json#/definitions/file_object/properties/filename")
+* defined in: [EGA common metadata definitions](ega-12-definitions-ega-file-object-properties-filename.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-definitions.json#/definitions/file_object/properties/filename")
 
 ### filename Type
 
@@ -127,13 +127,13 @@ The nature of the content stored in an electronic file. The string corresponds t
 
 `filetype`
 
-*   is required
+* is required
 
-*   Type: `string` ([Filetype](ega-12-definitions-ega-file-object-properties-filetype.md))
+* Type: `string` ([Filetype](ega-12-definitions-ega-file-object-properties-filetype.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA common metadata definitions](ega-12-definitions-ega-file-object-properties-filetype.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-definitions.json#/definitions/file_object/properties/filetype")
+* defined in: [EGA common metadata definitions](ega-12-definitions-ega-file-object-properties-filetype.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-definitions.json#/definitions/file_object/properties/filetype")
 
 ### filetype Type
 
@@ -178,13 +178,13 @@ Node containing both the ID (MD5 or SHA-256), describing the method which yields
 
 `checksum_method`
 
-*   is required
+* is required
 
-*   Type: `string` ([Checksum method ID](ega-12-definitions-ega-file-object-properties-checksum-method-id.md))
+* Type: `string` ([Checksum method ID](ega-12-definitions-ega-file-object-properties-checksum-method-id.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA common metadata definitions](ega-12-definitions-ega-file-object-properties-checksum-method-id.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-definitions.json#/definitions/file_object/properties/checksum_method")
+* defined in: [EGA common metadata definitions](ega-12-definitions-ega-file-object-properties-checksum-method-id.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-definitions.json#/definitions/file_object/properties/checksum_method")
 
 ### checksum\_method Type
 
@@ -205,13 +205,13 @@ A computed value which depends on the contents of a block of data and which is t
 
 `unencrypted_checksum`
 
-*   is required
+* is required
 
-*   Type: `string` ([Checksum \[NCIT:C43522\] of the unencrypted file](ega-12-definitions-ega-file-object-properties-checksum-ncitc43522-of-the-unencrypted-file.md))
+* Type: `string` ([Checksum \[NCIT:C43522\] of the unencrypted file](ega-12-definitions-ega-file-object-properties-checksum-ncitc43522-of-the-unencrypted-file.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA common metadata definitions](ega-12-definitions-ega-file-object-properties-checksum-ncitc43522-of-the-unencrypted-file.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-definitions.json#/definitions/file_object/properties/unencrypted_checksum")
+* defined in: [EGA common metadata definitions](ega-12-definitions-ega-file-object-properties-checksum-ncitc43522-of-the-unencrypted-file.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-definitions.json#/definitions/file_object/properties/unencrypted_checksum")
 
 ### unencrypted\_checksum Type
 
@@ -219,9 +219,9 @@ A computed value which depends on the contents of a block of data and which is t
 
 one (and only one) of
 
-*   [Checksum pattern obtained by MD5](ega-12-definitions-checksum-pattern-obtained-by-md5.md "check type definition")
+* [Checksum pattern obtained by MD5](ega-12-definitions-checksum-pattern-obtained-by-md5.md "check type definition")
 
-*   [Checksum pattern obtained by SHA-256](ega-12-definitions-checksum-pattern-obtained-by-sha-256.md "check type definition")
+* [Checksum pattern obtained by SHA-256](ega-12-definitions-checksum-pattern-obtained-by-sha-256.md "check type definition")
 
 ### unencrypted\_checksum Examples
 
@@ -235,13 +235,13 @@ A computed value which depends on the contents of a block of data and which is t
 
 `encrypted_checksum`
 
-*   is required
+* is required
 
-*   Type: `string` ([Checksum \[NCIT:C43522\] of the encrypted file](ega-12-definitions-ega-file-object-properties-checksum-ncitc43522-of-the-encrypted-file.md))
+* Type: `string` ([Checksum \[NCIT:C43522\] of the encrypted file](ega-12-definitions-ega-file-object-properties-checksum-ncitc43522-of-the-encrypted-file.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA common metadata definitions](ega-12-definitions-ega-file-object-properties-checksum-ncitc43522-of-the-encrypted-file.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-definitions.json#/definitions/file_object/properties/encrypted_checksum")
+* defined in: [EGA common metadata definitions](ega-12-definitions-ega-file-object-properties-checksum-ncitc43522-of-the-encrypted-file.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-definitions.json#/definitions/file_object/properties/encrypted_checksum")
 
 ### encrypted\_checksum Type
 
@@ -249,9 +249,9 @@ A computed value which depends on the contents of a block of data and which is t
 
 one (and only one) of
 
-*   [Checksum pattern obtained by MD5](ega-12-definitions-checksum-pattern-obtained-by-md5.md "check type definition")
+* [Checksum pattern obtained by MD5](ega-12-definitions-checksum-pattern-obtained-by-md5.md "check type definition")
 
-*   [Checksum pattern obtained by SHA-256](ega-12-definitions-checksum-pattern-obtained-by-sha-256.md "check type definition")
+* [Checksum pattern obtained by SHA-256](ega-12-definitions-checksum-pattern-obtained-by-sha-256.md "check type definition")
 
 ### encrypted\_checksum Examples
 
@@ -265,13 +265,13 @@ Sequencing quality scores measure the probability that a base is called (i.e. se
 
 `sequence_quality_details`
 
-*   is optional
+* is optional
 
-*   Type: `object` ([Sequence quality details](ega-12-definitions-ega-file-object-properties-sequence-quality-details.md))
+* Type: `object` ([Sequence quality details](ega-12-definitions-ega-file-object-properties-sequence-quality-details.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA common metadata definitions](ega-12-definitions-ega-file-object-properties-sequence-quality-details.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-definitions.json#/definitions/file_object/properties/sequence_quality_details")
+* defined in: [EGA common metadata definitions](ega-12-definitions-ega-file-object-properties-sequence-quality-details.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-definitions.json#/definitions/file_object/properties/sequence_quality_details")
 
 ### sequence\_quality\_details Type
 

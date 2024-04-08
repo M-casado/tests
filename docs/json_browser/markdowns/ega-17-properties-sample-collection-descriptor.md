@@ -16,9 +16,9 @@ Node containing the provenance details (when and where) of the sample. This info
 
 any of
 
-*   [Either the collection date is required](ega-17-properties-sample-collection-descriptor-anyof-either-the-collection-date-is-required.md "check type definition")
+* [Either the collection date is required](ega-17-properties-sample-collection-descriptor-anyof-either-the-collection-date-is-required.md "check type definition")
 
-*   [Or the collection site is required](ega-17-properties-sample-collection-descriptor-anyof-or-the-collection-site-is-required.md "check type definition")
+* [Or the collection site is required](ega-17-properties-sample-collection-descriptor-anyof-or-the-collection-site-is-required.md "check type definition")
 
 # sample\_collection Properties
 
@@ -34,13 +34,13 @@ ISO date (format YYYY-MM-DD - e.g. '2021-05-15') when the sample was collected. 
 
 `sample_collection_date`
 
-*   is optional
+* is optional
 
-*   Type: `string` ([Pattern of an EGA ISO date (YYYY-MM-DD)](ega-12-definitions-pattern-of-an-ega-iso-date-yyyy-mm-dd.md))
+* Type: `string` ([Pattern of an EGA ISO date (YYYY-MM-DD)](ega-12-definitions-pattern-of-an-ega-iso-date-yyyy-mm-dd.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA sample metadata schema](ega-12-definitions-pattern-of-an-ega-iso-date-yyyy-mm-dd.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.sample.json#/properties/sample_collection/properties/sample_collection_date")
+* defined in: [EGA sample metadata schema](ega-12-definitions-pattern-of-an-ega-iso-date-yyyy-mm-dd.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.sample.json#/properties/sample_collection/properties/sample_collection_date")
 
 ### sample\_collection\_date Type
 
@@ -68,13 +68,13 @@ Biological entity that is either an individual member of a biological species or
 
 `sample_collection_site`
 
-*   is optional
+* is optional
 
-*   Type: `string` ([UBERON's Anatomical entity](ega-12-definitions-uberons-anatomical-entity.md))
+* Type: `string` ([UBERON's Anatomical entity](ega-12-definitions-uberons-anatomical-entity.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA sample metadata schema](ega-12-definitions-uberons-anatomical-entity.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.sample.json#/properties/sample_collection/properties/sample_collection_site")
+* defined in: [EGA sample metadata schema](ega-12-definitions-uberons-anatomical-entity.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.sample.json#/properties/sample_collection/properties/sample_collection_site")
 
 ### sample\_collection\_site Type
 
@@ -100,13 +100,13 @@ Ontology term in CURIE format (e.g. 'UBERON:0000167') of the sampling site. The 
 
 `sample_collection_site_curie`
 
-*   is optional
+* is optional
 
-*   Type: `string` ([CURIE of the sampling site](ega-17-properties-sample-collection-descriptor-properties-curie-of-the-sampling-site.md))
+* Type: `string` ([CURIE of the sampling site](ega-17-properties-sample-collection-descriptor-properties-curie-of-the-sampling-site.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA sample metadata schema](ega-17-properties-sample-collection-descriptor-properties-curie-of-the-sampling-site.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.sample.json#/properties/sample_collection/properties/sample_collection_site_curie")
+* defined in: [EGA sample metadata schema](ega-17-properties-sample-collection-descriptor-properties-curie-of-the-sampling-site.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.sample.json#/properties/sample_collection/properties/sample_collection_site_curie")
 
 ### sample\_collection\_site\_curie Type
 
@@ -114,7 +114,7 @@ Ontology term in CURIE format (e.g. 'UBERON:0000167') of the sampling site. The 
 
 all of
 
-*   [Compact URI (CURIE) pattern](ega-12-definitions-compact-uri-curie-pattern.md "check type definition")
+* [Compact URI (CURIE) pattern](ega-12-definitions-compact-uri-curie-pattern.md "check type definition")
 
 ### sample\_collection\_site\_curie Examples
 

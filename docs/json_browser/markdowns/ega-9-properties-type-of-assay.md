@@ -16,13 +16,13 @@ Node defining the type of assay applicable to the experiment. Consists in an ove
 
 any of
 
-*   [Assay subtypes match DNA/RNA assays](ega-9-properties-type-of-assay-anyof-assay-subtypes-match-dnarna-assays.md "check type definition")
+* [Assay subtypes match DNA/RNA assays](ega-9-properties-type-of-assay-anyof-assay-subtypes-match-dnarna-assays.md "check type definition")
 
-*   one (and only one) of
+* one (and only one) of
 
-    *   [Assay type and subtype terms are from the array CV list](ega-9-properties-type-of-assay-anyof-assay-subtypes-match-arraysequencer-assays-oneof-assay-type-and-subtype-terms-are-from-the-array-cv-list.md "check type definition")
+  * [Assay type and subtype terms are from the array CV list](ega-9-properties-type-of-assay-anyof-assay-subtypes-match-arraysequencer-assays-oneof-assay-type-and-subtype-terms-are-from-the-array-cv-list.md "check type definition")
 
-    *   [Assay type and subtype terms are from the sequencer CV list](ega-9-properties-type-of-assay-anyof-assay-subtypes-match-arraysequencer-assays-oneof-assay-type-and-subtype-terms-are-from-the-sequencer-cv-list.md "check type definition")
+  * [Assay type and subtype terms are from the sequencer CV list](ega-9-properties-type-of-assay-anyof-assay-subtypes-match-arraysequencer-assays-oneof-assay-type-and-subtype-terms-are-from-the-sequencer-cv-list.md "check type definition")
 
 # assay\_type\_descriptor Properties
 
@@ -37,13 +37,13 @@ Overall type of the assay. Term chosen from a controlled vocabulary (CV) list. S
 
 `assay_type`
 
-*   is required
+* is required
 
-*   Type: `string` ([Type of the assay](ega-9-properties-type-of-assay-properties-type-of-the-assay.md))
+* Type: `string` ([Type of the assay](ega-9-properties-type-of-assay-properties-type-of-the-assay.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA Experiment metadata schema](ega-9-properties-type-of-assay-properties-type-of-the-assay.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.experiment.json#/properties/assay_type_descriptor/properties/assay_type")
+* defined in: [EGA Experiment metadata schema](ega-9-properties-type-of-assay-properties-type-of-the-assay.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.experiment.json#/properties/assay_type_descriptor/properties/assay_type")
 
 ### assay\_type Type
 
@@ -51,9 +51,9 @@ Overall type of the assay. Term chosen from a controlled vocabulary (CV) list. S
 
 any of
 
-*   [EGA Controlled Vocabulary (CV) for assay types by sequencer \[EFO:0003740\]](ega-9-properties-type-of-assay-properties-type-of-the-assay-anyof-ega-controlled-vocabulary-cv-for-assay-types-by-sequencer-efo0003740.md "check type definition")
+* [EGA Controlled Vocabulary (CV) for assay types by sequencer \[EFO:0003740\]](ega-9-properties-type-of-assay-properties-type-of-the-assay-anyof-ega-controlled-vocabulary-cv-for-assay-types-by-sequencer-efo0003740.md "check type definition")
 
-*   [EGA Controlled Vocabulary (CV) for assay types by array \[EFO:0002696\]](ega-9-properties-type-of-assay-properties-type-of-the-assay-anyof-ega-controlled-vocabulary-cv-for-assay-types-by-array-efo0002696.md "check type definition")
+* [EGA Controlled Vocabulary (CV) for assay types by array \[EFO:0002696\]](ega-9-properties-type-of-assay-properties-type-of-the-assay-anyof-ega-controlled-vocabulary-cv-for-assay-types-by-array-efo0002696.md "check type definition")
 
 ### assay\_type Examples
 
@@ -99,13 +99,13 @@ Subtype of the assay: any ontologized term hierarchically below the assay type. 
 
 `assay_subtype`
 
-*   is optional
+* is optional
 
-*   Type: `string` ([Subtype of the assay](ega-9-properties-type-of-assay-properties-subtype-of-the-assay.md))
+* Type: `string` ([Subtype of the assay](ega-9-properties-type-of-assay-properties-subtype-of-the-assay.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA Experiment metadata schema](ega-9-properties-type-of-assay-properties-subtype-of-the-assay.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.experiment.json#/properties/assay_type_descriptor/properties/assay_subtype")
+* defined in: [EGA Experiment metadata schema](ega-9-properties-type-of-assay-properties-subtype-of-the-assay.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.experiment.json#/properties/assay_type_descriptor/properties/assay_subtype")
 
 ### assay\_subtype Type
 

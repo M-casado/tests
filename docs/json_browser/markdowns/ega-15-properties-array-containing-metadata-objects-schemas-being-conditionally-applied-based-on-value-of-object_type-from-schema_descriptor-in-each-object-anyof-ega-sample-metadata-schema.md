@@ -35,13 +35,13 @@ Node containing the main identifiers of the object (e.g. alias, center\_name...)
 
 `object_id`
 
-*   is required
+* is required
 
-*   Type: `object` ([Object's IDs block](ega-17-properties-objects-ids-block.md))
+* Type: `object` ([Object's IDs block](ega-17-properties-objects-ids-block.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA sample metadata schema](ega-17-properties-objects-ids-block.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.sample.json#/properties/object_id")
+* defined in: [EGA sample metadata schema](ega-17-properties-objects-ids-block.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.sample.json#/properties/object_id")
 
 ### object\_id Type
 
@@ -49,15 +49,15 @@ Node containing the main identifiers of the object (e.g. alias, center\_name...)
 
 all of
 
-*   any of
+* any of
 
-    *   [Check core IDs: combination of Alias and Center name](ega-12-definitions-core-identifiers-of-an-object-anyof-check-core-ids-combination-of-alias-and-center-name.md "check type definition")
+  * [Check core IDs: combination of Alias and Center name](ega-12-definitions-core-identifiers-of-an-object-anyof-check-core-ids-combination-of-alias-and-center-name.md "check type definition")
 
-    *   [Check core IDs: EGA accession ID](ega-12-definitions-core-identifiers-of-an-object-anyof-check-core-ids-ega-accession-id.md "check type definition")
+  * [Check core IDs: EGA accession ID](ega-12-definitions-core-identifiers-of-an-object-anyof-check-core-ids-ega-accession-id.md "check type definition")
 
-    *   [Check core IDs: external accessions](ega-12-definitions-core-identifiers-of-an-object-anyof-check-core-ids-external-accessions.md "check type definition")
+  * [Check core IDs: external accessions](ega-12-definitions-core-identifiers-of-an-object-anyof-check-core-ids-external-accessions.md "check type definition")
 
-*   [Check that sample EGA ID (EGAN) is correct](ega-17-properties-objects-ids-block-allof-check-that-sample-ega-id-egan-is-correct.md "check type definition")
+* [Check that sample EGA ID (EGAN) is correct](ega-17-properties-objects-ids-block-allof-check-that-sample-ega-id-egan-is-correct.md "check type definition")
 
 ## schema\_descriptor
 
@@ -65,13 +65,13 @@ This node is intended to be used to describe the schemas and standards that a JS
 
 `schema_descriptor`
 
-*   is optional
+* is optional
 
-*   Type: `object` ([Schema descriptor](ega-12-definitions-schema-descriptor.md))
+* Type: `object` ([Schema descriptor](ega-12-definitions-schema-descriptor.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA sample metadata schema](ega-12-definitions-schema-descriptor.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.sample.json#/properties/schema_descriptor")
+* defined in: [EGA sample metadata schema](ega-12-definitions-schema-descriptor.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.sample.json#/properties/schema_descriptor")
 
 ### schema\_descriptor Type
 
@@ -83,13 +83,13 @@ An informative sample title that should serve as an overview (e.g. sample tag, p
 
 `object_title`
 
-*   is optional
+* is optional
 
-*   Type: `string` ([Title of the sample](ega-17-properties-title-of-the-sample.md))
+* Type: `string` ([Title of the sample](ega-17-properties-title-of-the-sample.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA sample metadata schema](ega-17-properties-title-of-the-sample.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.sample.json#/properties/object_title")
+* defined in: [EGA sample metadata schema](ega-17-properties-title-of-the-sample.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.sample.json#/properties/object_title")
 
 ### object\_title Type
 
@@ -107,13 +107,13 @@ An informative sample description that describes the sample and differentiates i
 
 `object_description`
 
-*   is optional
+* is optional
 
-*   Type: `string` ([Description of the sample](ega-17-properties-description-of-the-sample.md))
+* Type: `string` ([Description of the sample](ega-17-properties-description-of-the-sample.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA sample metadata schema](ega-17-properties-description-of-the-sample.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.sample.json#/properties/object_description")
+* defined in: [EGA sample metadata schema](ega-17-properties-description-of-the-sample.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.sample.json#/properties/object_description")
 
 ### object\_description Type
 
@@ -131,13 +131,13 @@ This node describes the material entity the sample consists in. That is, an indi
 
 `organism_descriptor`
 
-*   is required
+* is required
 
-*   Type: `object` ([Organism \[OBI:0100026\] descriptor block](ega-12-definitions-organism-obi0100026-descriptor-block.md))
+* Type: `object` ([Organism \[OBI:0100026\] descriptor block](ega-12-definitions-organism-obi0100026-descriptor-block.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA sample metadata schema](ega-12-definitions-organism-obi0100026-descriptor-block.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.sample.json#/properties/organism_descriptor")
+* defined in: [EGA sample metadata schema](ega-12-definitions-organism-obi0100026-descriptor-block.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.sample.json#/properties/organism_descriptor")
 
 ### organism\_descriptor Type
 
@@ -149,13 +149,13 @@ Among all fields describing a sample, some may contain identifiable metadata and
 
 `minimal_public_attributes`
 
-*   is required
+* is required
 
-*   Type: `object` ([Minimal public attributes describing a sample](ega-17-properties-minimal-public-attributes-describing-a-sample.md))
+* Type: `object` ([Minimal public attributes describing a sample](ega-17-properties-minimal-public-attributes-describing-a-sample.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA sample metadata schema](ega-17-properties-minimal-public-attributes-describing-a-sample.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.sample.json#/properties/minimal_public_attributes")
+* defined in: [EGA sample metadata schema](ega-17-properties-minimal-public-attributes-describing-a-sample.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.sample.json#/properties/minimal_public_attributes")
 
 ### minimal\_public\_attributes Type
 
@@ -167,13 +167,13 @@ Node containing the provenance details (when and where) of the sample. This info
 
 `sample_collection`
 
-*   is optional
+* is optional
 
-*   Type: `object` ([Sample collection descriptor](ega-17-properties-sample-collection-descriptor.md))
+* Type: `object` ([Sample collection descriptor](ega-17-properties-sample-collection-descriptor.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA sample metadata schema](ega-17-properties-sample-collection-descriptor.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.sample.json#/properties/sample_collection")
+* defined in: [EGA sample metadata schema](ega-17-properties-sample-collection-descriptor.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.sample.json#/properties/sample_collection")
 
 ### sample\_collection Type
 
@@ -181,9 +181,9 @@ Node containing the provenance details (when and where) of the sample. This info
 
 any of
 
-*   [Either the collection date is required](ega-17-properties-sample-collection-descriptor-anyof-either-the-collection-date-is-required.md "check type definition")
+* [Either the collection date is required](ega-17-properties-sample-collection-descriptor-anyof-either-the-collection-date-is-required.md "check type definition")
 
-*   [Or the collection site is required](ega-17-properties-sample-collection-descriptor-anyof-or-the-collection-site-is-required.md "check type definition")
+* [Or the collection site is required](ega-17-properties-sample-collection-descriptor-anyof-or-the-collection-site-is-required.md "check type definition")
 
 ## sample\_grouping
 
@@ -191,13 +191,13 @@ Node describing whether the sample object is: (1) a single physical sample (a si
 
 `sample_grouping`
 
-*   is optional
+* is optional
 
-*   Type: `object` ([Sample group descriptor](ega-17-properties-sample-group-descriptor.md))
+* Type: `object` ([Sample group descriptor](ega-17-properties-sample-group-descriptor.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA sample metadata schema](ega-17-properties-sample-group-descriptor.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.sample.json#/properties/sample_grouping")
+* defined in: [EGA sample metadata schema](ega-17-properties-sample-group-descriptor.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.sample.json#/properties/sample_grouping")
 
 ### sample\_grouping Type
 
@@ -205,9 +205,9 @@ Node describing whether the sample object is: (1) a single physical sample (a si
 
 one (and only one) of
 
-*   [Either the sample_number is present and above 1](ega-17-properties-sample-group-descriptor-oneof-either-the-sample_number-is-present-and-above-1.md "check type definition")
+* [Either the sample_number is present and above 1](ega-17-properties-sample-group-descriptor-oneof-either-the-sample_number-is-present-and-above-1.md "check type definition")
 
-*   [Or the sample_group_boolean is 'false', hence an individual sample with sample_number being '1' or no sample_number](ega-17-properties-sample-group-descriptor-oneof-or-the-sample_group_boolean-is-false-hence-an-individual-sample-with-sample_number-being-1-or-no-sample_number.md "check type definition")
+* [Or the sample_group_boolean is 'false', hence an individual sample with sample_number being '1' or no sample_number](ega-17-properties-sample-group-descriptor-oneof-or-the-sample_group_boolean-is-false-hence-an-individual-sample-with-sample_number-being-1-or-no-sample_number.md "check type definition")
 
 ## sample\_relationships
 
@@ -215,13 +215,13 @@ Comprises metadata (e.g. Source or Target) of a directional association between 
 
 `sample_relationships`
 
-*   is optional
+* is optional
 
-*   Type: `object[]` ([EGA Relationships object](ega-12-definitions-ega-relationships-object.md))
+* Type: `object[]` ([EGA Relationships object](ega-12-definitions-ega-relationships-object.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA sample metadata schema](ega-17-properties-sample-relationships.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.sample.json#/properties/sample_relationships")
+* defined in: [EGA sample metadata schema](ega-17-properties-sample-relationships.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.sample.json#/properties/sample_relationships")
 
 ### sample\_relationships Type
 
@@ -239,13 +239,13 @@ Custom attributes of a sample: reusable attributes to encode tag-value pairs (e.
 
 `sample_attributes`
 
-*   is optional
+* is optional
 
-*   Type: `object[]` ([Custom attribute of an object](ega-12-definitions-custom-attribute-of-an-object.md))
+* Type: `object[]` ([Custom attribute of an object](ega-12-definitions-custom-attribute-of-an-object.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA sample metadata schema](ega-17-properties-sample-custom-attributes.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.sample.json#/properties/sample_attributes")
+* defined in: [EGA sample metadata schema](ega-17-properties-sample-custom-attributes.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.sample.json#/properties/sample_attributes")
 
 ### sample\_attributes Type
 

@@ -27,13 +27,13 @@ unknown ([Or the sample\_group\_boolean is 'false', hence an individual sample w
 
 `sample_group_boolean`
 
-*   is optional
+* is optional
 
-*   Type: unknown
+* Type: unknown
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA sample metadata schema](ega-17-properties-sample-group-descriptor-oneof-or-the-sample_group_boolean-is-false-hence-an-individual-sample-with-sample_number-being-1-or-no-sample_number-properties-sample_group_boolean.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.sample.json#/properties/sample_grouping/oneOf/1/properties/sample_group_boolean")
+* defined in: [EGA sample metadata schema](ega-17-properties-sample-group-descriptor-oneof-or-the-sample_group_boolean-is-false-hence-an-individual-sample-with-sample_number-being-1-or-no-sample_number-properties-sample_group_boolean.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.sample.json#/properties/sample_grouping/oneOf/1/properties/sample_group_boolean")
 
 ### sample\_group\_boolean Type
 
@@ -53,13 +53,13 @@ unknown
 
 `sample_number`
 
-*   is optional
+* is optional
 
-*   Type: unknown
+* Type: unknown
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA sample metadata schema](ega-17-properties-sample-group-descriptor-oneof-or-the-sample_group_boolean-is-false-hence-an-individual-sample-with-sample_number-being-1-or-no-sample_number-properties-sample_number.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.sample.json#/properties/sample_grouping/oneOf/1/properties/sample_number")
+* defined in: [EGA sample metadata schema](ega-17-properties-sample-group-descriptor-oneof-or-the-sample_group_boolean-is-false-hence-an-individual-sample-with-sample_number-being-1-or-no-sample_number-properties-sample_number.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.sample.json#/properties/sample_grouping/oneOf/1/properties/sample_number")
 
 ### sample\_number Type
 

@@ -16,9 +16,9 @@ Node containing additional attributes to describe the experiment, either array e
 
 one (and only one) of
 
-*   [The sequencing experiment descriptors are required](ega-9-properties-experiment-type-specifications-oneof-the-sequencing-experiment-descriptors-are-required.md "check type definition")
+* [The sequencing experiment descriptors are required](ega-9-properties-experiment-type-specifications-oneof-the-sequencing-experiment-descriptors-are-required.md "check type definition")
 
-*   [The array experiment descriptors are required](ega-9-properties-experiment-type-specifications-oneof-the-array-experiment-descriptors-are-required.md "check type definition")
+* [The array experiment descriptors are required](ega-9-properties-experiment-type-specifications-oneof-the-array-experiment-descriptors-are-required.md "check type definition")
 
 # experiment\_type\_specifications Properties
 
@@ -33,13 +33,13 @@ Node containing the set of fields specific to an experiment of array-type (i.e. 
 
 `array_experiment`
 
-*   is optional
+* is optional
 
-*   Type: `object` ([Specifications of an array experiment](ega-9-properties-experiment-type-specifications-properties-specifications-of-an-array-experiment.md))
+* Type: `object` ([Specifications of an array experiment](ega-9-properties-experiment-type-specifications-properties-specifications-of-an-array-experiment.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA Experiment metadata schema](ega-9-properties-experiment-type-specifications-properties-specifications-of-an-array-experiment.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.experiment.json#/properties/experiment_type_specifications/properties/array_experiment")
+* defined in: [EGA Experiment metadata schema](ega-9-properties-experiment-type-specifications-properties-specifications-of-an-array-experiment.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.experiment.json#/properties/experiment_type_specifications/properties/array_experiment")
 
 ### array\_experiment Type
 
@@ -51,13 +51,13 @@ Node containing the set of fields specific to an experiment of sequencing-type (
 
 `sequencing_experiment`
 
-*   is optional
+* is optional
 
-*   Type: `object` ([Specifications of a sequencing experiment](ega-9-properties-experiment-type-specifications-properties-specifications-of-a-sequencing-experiment.md))
+* Type: `object` ([Specifications of a sequencing experiment](ega-9-properties-experiment-type-specifications-properties-specifications-of-a-sequencing-experiment.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA Experiment metadata schema](ega-9-properties-experiment-type-specifications-properties-specifications-of-a-sequencing-experiment.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.experiment.json#/properties/experiment_type_specifications/properties/sequencing_experiment")
+* defined in: [EGA Experiment metadata schema](ega-9-properties-experiment-type-specifications-properties-specifications-of-a-sequencing-experiment.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.experiment.json#/properties/experiment_type_specifications/properties/sequencing_experiment")
 
 ### sequencing\_experiment Type
 
