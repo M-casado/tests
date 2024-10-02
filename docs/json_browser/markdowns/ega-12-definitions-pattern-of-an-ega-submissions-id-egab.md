@@ -1,7 +1,7 @@
 # Pattern of an EGA submission's ID (EGAB...) Schema
 
 ```txt
-https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-definitions.json#/definitions/object-id-and-object-type-check/anyOf/5/properties/object_id/properties/ega_accession
+https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-definitions.json#/definitions/EGA-submission-id-pattern
 ```
 
 
@@ -10,11 +10,11 @@ https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-defin
 | :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [EGA.common-definitions.json\*](../../../schemas/EGA.common-definitions.json "open original schema") |
 
-## ega\_accession Type
+## EGA-submission-id-pattern Type
 
 `string` ([Pattern of an EGA submission's ID (EGAB...)](ega-12-definitions-pattern-of-an-ega-submissions-id-egab.md))
 
-## ega\_accession Constraints
+## EGA-submission-id-pattern Constraints
 
 **pattern**: the string must match the following regular expression:&#x20;
 
@@ -24,7 +24,7 @@ https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-defin
 
 [try pattern](https://regexr.com/?expression=%5EEGAB%5B0-9%5D%7B11%7D%24 "try regular expression with regexr.com")
 
-## ega\_accession Examples
+## EGA-submission-id-pattern Examples
 
 ```json
 "EGAB00001001831"

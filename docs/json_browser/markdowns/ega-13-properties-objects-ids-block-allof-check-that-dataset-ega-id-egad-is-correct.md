@@ -26,13 +26,13 @@ unknown ([Check that dataset EGA ID (EGAD) is correct](ega-13-properties-objects
 
 `ega_accession`
 
-*   is optional
+* is optional
 
-*   Type: `string` ([Pattern of an EGA dataset's ID (EGAD...)](ega-12-definitions-pattern-of-an-ega-datasets-id-egad.md))
+* Type: `string` ([Pattern of an EGA dataset's ID (EGAD...)](ega-12-definitions-pattern-of-an-ega-datasets-id-egad.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA dataset metadata schema](ega-12-definitions-pattern-of-an-ega-datasets-id-egad.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.dataset.json#/properties/object_id/allOf/1/properties/ega_accession")
+* defined in: [EGA dataset metadata schema](ega-12-definitions-pattern-of-an-ega-datasets-id-egad.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.dataset.json#/properties/object_id/allOf/1/properties/ega_accession")
 
 ### ega\_accession Type
 

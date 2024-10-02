@@ -27,13 +27,13 @@ unknown ([Asserting array technology controlled vocabulary (CV)](ega-12-definiti
 
 `assay_instrument`
 
-*   is optional
+* is optional
 
-*   Type: unknown
+* Type: unknown
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA common metadata definitions](ega-12-definitions-assay-technology-oneof-asserting-array-technology-controlled-vocabulary-cv-properties-assay_instrument.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-definitions.json#/definitions/assay_technology_descriptor/oneOf/0/properties/assay_instrument")
+* defined in: [EGA common metadata definitions](ega-12-definitions-assay-technology-oneof-asserting-array-technology-controlled-vocabulary-cv-properties-assay_instrument.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-definitions.json#/definitions/assay_technology_descriptor/oneOf/0/properties/assay_instrument")
 
 ### assay\_instrument Type
 
@@ -53,13 +53,13 @@ Controlled Vocabulary (CV) list for the array instrument platforms, derived from
 
 `assay_instrument_platform`
 
-*   is optional
+* is optional
 
-*   Type: `string` ([Array instrument platform CV list](ega-12-definitions-assay-technology-oneof-asserting-array-technology-controlled-vocabulary-cv-properties-array-instrument-platform-cv-list.md))
+* Type: `string` ([Array instrument platform CV list](ega-12-definitions-assay-technology-oneof-asserting-array-technology-controlled-vocabulary-cv-properties-array-instrument-platform-cv-list.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA common metadata definitions](ega-12-definitions-assay-technology-oneof-asserting-array-technology-controlled-vocabulary-cv-properties-array-instrument-platform-cv-list.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/controlled_vocabulary_schemas/EGA.cv.instrument_platforms_array.json#/definitions/assay_technology_descriptor/oneOf/0/properties/assay_instrument_platform")
+* defined in: [EGA common metadata definitions](ega-12-definitions-assay-technology-oneof-asserting-array-technology-controlled-vocabulary-cv-properties-array-instrument-platform-cv-list.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/controlled_vocabulary_schemas/EGA.cv.instrument_platforms_array.json#/definitions/assay_technology_descriptor/oneOf/0/properties/assay_instrument_platform")
 
 ### assay\_instrument\_platform Type
 

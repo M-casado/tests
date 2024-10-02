@@ -12,7 +12,7 @@ Optional label (e.g. 'taken from biosample temporarily') of the external accessi
 
 ## accession\_label Type
 
-any of the folllowing: `string` or `number` ([Label of the external accession](ega-12-definitions-object-of-external-accession-of-the-object-properties-label-of-the-external-accession.md))
+any of the following: `string` or `number` ([Label of the external accession](ega-12-definitions-object-of-external-accession-of-the-object-properties-label-of-the-external-accession.md))
 
 ## accession\_label Examples
 

@@ -27,13 +27,13 @@ Array of all analysis types applicable to this analysis. Details on how the anal
 
 `analysis_types`
 
-*   is required
+* is required
 
-*   Type: `string[]` ([Type of analysis](ega-10-properties-analysis-type-specifications-properties-list-of-analysis-types-type-of-analysis.md))
+* Type: `string[]` ([Type of analysis](ega-10-properties-analysis-type-specifications-properties-list-of-analysis-types-type-of-analysis.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA analysis metadata schema](ega-10-properties-analysis-type-specifications-properties-list-of-analysis-types.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.analysis.json#/properties/analysis_type_specifications/properties/analysis_types")
+* defined in: [EGA analysis metadata schema](ega-10-properties-analysis-type-specifications-properties-list-of-analysis-types.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.analysis.json#/properties/analysis_type_specifications/properties/analysis_types")
 
 ### analysis\_types Type
 
@@ -51,13 +51,13 @@ Node containing the information of the reference assembly that was used to obtai
 
 `reference_alignment_details`
 
-*   is optional
+* is optional
 
-*   Type: `object[]` ([NCBI's Assembly descriptor](ega-12-definitions-ncbis-assembly-descriptor.md))
+* Type: `object[]` ([NCBI's Assembly descriptor](ega-12-definitions-ncbis-assembly-descriptor.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA analysis metadata schema](ega-12-definitions-reference-assembly-and-sequence-details.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.analysis.json#/properties/analysis_type_specifications/properties/reference_alignment_details")
+* defined in: [EGA analysis metadata schema](ega-12-definitions-reference-assembly-and-sequence-details.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.analysis.json#/properties/analysis_type_specifications/properties/reference_alignment_details")
 
 ### reference\_alignment\_details Type
 

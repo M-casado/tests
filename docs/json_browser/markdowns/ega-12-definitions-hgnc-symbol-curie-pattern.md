@@ -16,7 +16,7 @@ The HGNC (HUGO Gene Nomenclature Committee) provides an approved gene name and s
 
 all of
 
-*   [Compact URI (CURIE) pattern](ega-12-definitions-compact-uri-curie-pattern.md "check type definition")
+* [Compact URI (CURIE) pattern](ega-12-definitions-compact-uri-curie-pattern.md "check type definition")
 
 ## curie\_hgnc\_symbol\_pattern Constraints
 

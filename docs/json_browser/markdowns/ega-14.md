@@ -31,13 +31,13 @@ Node containing the main identifiers of the object (e.g. alias, center\_name...)
 
 `object_id`
 
-*   is required
+* is required
 
-*   Type: `object` ([Object's IDs block](ega-14-properties-objects-ids-block.md))
+* Type: `object` ([Object's IDs block](ega-14-properties-objects-ids-block.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA individual metadata schema](ega-14-properties-objects-ids-block.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.individual.json#/properties/object_id")
+* defined in: [EGA individual metadata schema](ega-14-properties-objects-ids-block.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.individual.json#/properties/object_id")
 
 ### object\_id Type
 
@@ -45,15 +45,15 @@ Node containing the main identifiers of the object (e.g. alias, center\_name...)
 
 all of
 
-*   any of
+* any of
 
-    *   [Check core IDs: combination of Alias and Center name](ega-12-definitions-core-identifiers-of-an-object-anyof-check-core-ids-combination-of-alias-and-center-name.md "check type definition")
+  * [Check core IDs: combination of Alias and Center name](ega-12-definitions-core-identifiers-of-an-object-anyof-check-core-ids-combination-of-alias-and-center-name.md "check type definition")
 
-    *   [Check core IDs: EGA accession ID](ega-12-definitions-core-identifiers-of-an-object-anyof-check-core-ids-ega-accession-id.md "check type definition")
+  * [Check core IDs: EGA accession ID](ega-12-definitions-core-identifiers-of-an-object-anyof-check-core-ids-ega-accession-id.md "check type definition")
 
-    *   [Check core IDs: external accessions](ega-12-definitions-core-identifiers-of-an-object-anyof-check-core-ids-external-accessions.md "check type definition")
+  * [Check core IDs: external accessions](ega-12-definitions-core-identifiers-of-an-object-anyof-check-core-ids-external-accessions.md "check type definition")
 
-*   [Check that individual EGA ID (EGAI) is correct](ega-14-properties-objects-ids-block-allof-check-that-individual-ega-id-egai-is-correct.md "check type definition")
+* [Check that individual EGA ID (EGAI) is correct](ega-14-properties-objects-ids-block-allof-check-that-individual-ega-id-egai-is-correct.md "check type definition")
 
 ## schema\_descriptor
 
@@ -61,13 +61,13 @@ This node is intended to be used to describe the schemas and standards that a JS
 
 `schema_descriptor`
 
-*   is optional
+* is optional
 
-*   Type: `object` ([Schema descriptor](ega-12-definitions-schema-descriptor.md))
+* Type: `object` ([Schema descriptor](ega-12-definitions-schema-descriptor.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA individual metadata schema](ega-12-definitions-schema-descriptor.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.individual.json#/properties/schema_descriptor")
+* defined in: [EGA individual metadata schema](ega-12-definitions-schema-descriptor.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.individual.json#/properties/schema_descriptor")
 
 ### schema\_descriptor Type
 
@@ -79,13 +79,13 @@ This node describes the material entity the sample consists in. That is, an indi
 
 `organism_descriptor`
 
-*   is required
+* is required
 
-*   Type: `object` ([Organism \[OBI:0100026\] descriptor block](ega-12-definitions-organism-obi0100026-descriptor-block.md))
+* Type: `object` ([Organism \[OBI:0100026\] descriptor block](ega-12-definitions-organism-obi0100026-descriptor-block.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA individual metadata schema](ega-12-definitions-organism-obi0100026-descriptor-block.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.individual.json#/properties/organism_descriptor")
+* defined in: [EGA individual metadata schema](ega-12-definitions-organism-obi0100026-descriptor-block.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.individual.json#/properties/organism_descriptor")
 
 ### organism\_descriptor Type
 
@@ -97,13 +97,13 @@ Among all attributes describing an individual, some may contain identifiable met
 
 `minimal_public_attributes`
 
-*   is required
+* is required
 
-*   Type: `object` ([Minimal public attributes describing an individual](ega-14-properties-minimal-public-attributes-describing-an-individual.md))
+* Type: `object` ([Minimal public attributes describing an individual](ega-14-properties-minimal-public-attributes-describing-an-individual.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA individual metadata schema](ega-14-properties-minimal-public-attributes-describing-an-individual.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.individual.json#/properties/minimal_public_attributes")
+* defined in: [EGA individual metadata schema](ega-14-properties-minimal-public-attributes-describing-an-individual.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.individual.json#/properties/minimal_public_attributes")
 
 ### minimal\_public\_attributes Type
 
@@ -115,13 +115,13 @@ Comprises metadata (e.g. Source or Target) of a directional association between 
 
 `individual_relationships`
 
-*   is optional
+* is optional
 
-*   Type: `object[]` ([EGA Relationships object](ega-12-definitions-ega-relationships-object.md))
+* Type: `object[]` ([EGA Relationships object](ega-12-definitions-ega-relationships-object.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA individual metadata schema](ega-14-properties-individual-relationships.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.individual.json#/properties/individual_relationships")
+* defined in: [EGA individual metadata schema](ega-14-properties-individual-relationships.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.individual.json#/properties/individual_relationships")
 
 ### individual\_relationships Type
 
@@ -137,13 +137,13 @@ Custom attributes of an individual: reusable attributes to encode tag-value pair
 
 `individual_attributes`
 
-*   is optional
+* is optional
 
-*   Type: `object[]` ([Custom attribute of an object](ega-12-definitions-custom-attribute-of-an-object.md))
+* Type: `object[]` ([Custom attribute of an object](ega-12-definitions-custom-attribute-of-an-object.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA individual metadata schema](ega-14-properties-individual-custom-attributes.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.individual.json#/properties/individual_attributes")
+* defined in: [EGA individual metadata schema](ega-14-properties-individual-custom-attributes.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.individual.json#/properties/individual_attributes")
 
 ### individual\_attributes Type
 

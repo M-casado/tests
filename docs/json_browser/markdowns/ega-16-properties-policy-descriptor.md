@@ -16,9 +16,9 @@ Node containing the full description of the policy, whether it is hosted at some
 
 any of
 
-*   [Either the policy reference is given](ega-16-properties-policy-descriptor-anyof-either-the-policy-reference-is-given.md "check type definition")
+* [Either the policy reference is given](ega-16-properties-policy-descriptor-anyof-either-the-policy-reference-is-given.md "check type definition")
 
-*   [Or the policy text is given](ega-16-properties-policy-descriptor-anyof-or-the-policy-text-is-given.md "check type definition")
+* [Or the policy text is given](ega-16-properties-policy-descriptor-anyof-or-the-policy-text-is-given.md "check type definition")
 
 # policy\_descriptor Properties
 
@@ -33,13 +33,13 @@ A publicly accessible reference to the policy, where the updated text of the pol
 
 `policy_reference`
 
-*   is optional
+* is optional
 
-*   Type: `string` ([Reference to the policy](ega-16-properties-policy-descriptor-properties-reference-to-the-policy.md))
+* Type: `string` ([Reference to the policy](ega-16-properties-policy-descriptor-properties-reference-to-the-policy.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA policy metadata schema](ega-16-properties-policy-descriptor-properties-reference-to-the-policy.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.policy.json#/properties/policy_descriptor/properties/policy_reference")
+* defined in: [EGA policy metadata schema](ega-16-properties-policy-descriptor-properties-reference-to-the-policy.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.policy.json#/properties/policy_descriptor/properties/policy_reference")
 
 ### policy\_reference Type
 
@@ -53,7 +53,7 @@ A publicly accessible reference to the policy, where the updated text of the pol
 ^(http(s)?:\/\/.)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)$
 ```
 
-[try pattern](https://regexr.com/?expression=%5E\(http\(s\)%3F%3A%5C%2F%5C%2F.\)%3F\(www%5C.\)%3F%5B-a-zA-Z0-9%40%3A%25._%5C%2B\~%23%3D%5D%7B2%2C256%7D%5C.%5Ba-z%5D%7B2%2C6%7D%5Cb\(%5B-a-zA-Z0-9%40%3A%25_%5C%2B.\~%23%3F%26%2F%2F%3D%5D*\)%24 "try regular expression with regexr.com")
+[try pattern](https://regexr.com/?expression=%5E\(http\(s\)%3F%3A%5C%2F%5C%2F.\)%3F\(www%5C.\)%3F%5B-a-zA-Z0-9%40%3A%25._%5C%2B~%23%3D%5D%7B2%2C256%7D%5C.%5Ba-z%5D%7B2%2C6%7D%5Cb\(%5B-a-zA-Z0-9%40%3A%25_%5C%2B.~%23%3F%26%2F%2F%3D%5D*\)%24 "try regular expression with regexr.com")
 
 ### policy\_reference Examples
 
@@ -71,13 +71,13 @@ Text describing in detail the Data Access Agreement (DAA) of the policy.
 
 `policy_text`
 
-*   is optional
+* is optional
 
-*   Type: `string` ([Policy text](ega-16-properties-policy-descriptor-properties-policy-text.md))
+* Type: `string` ([Policy text](ega-16-properties-policy-descriptor-properties-policy-text.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA policy metadata schema](ega-16-properties-policy-descriptor-properties-policy-text.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.policy.json#/properties/policy_descriptor/properties/policy_text")
+* defined in: [EGA policy metadata schema](ega-16-properties-policy-descriptor-properties-policy-text.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.policy.json#/properties/policy_descriptor/properties/policy_text")
 
 ### policy\_text Type
 

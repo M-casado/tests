@@ -16,9 +16,9 @@ Assembly's identifier (e.g. GCF\_000001405.26) of the assembly. For example, the
 
 all of
 
-*   all of
+* all of
 
-    *   [Compact URI (CURIE) pattern](ega-12-definitions-compact-uri-curie-pattern.md "check type definition")
+  * [Compact URI (CURIE) pattern](ega-12-definitions-ncbi-assembly-curie-pattern-allof-compact-uri-curie-pattern.md "check type definition")
 
 ## ncbi\_assembly\_accession Examples
 

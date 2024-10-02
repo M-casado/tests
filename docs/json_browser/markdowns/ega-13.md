@@ -33,13 +33,13 @@ Node containing the main identifiers of the object (e.g. alias, center\_name...)
 
 `object_id`
 
-*   is required
+* is required
 
-*   Type: `object` ([Object's IDs block](ega-13-properties-objects-ids-block.md))
+* Type: `object` ([Object's IDs block](ega-13-properties-objects-ids-block.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA dataset metadata schema](ega-13-properties-objects-ids-block.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.dataset.json#/properties/object_id")
+* defined in: [EGA dataset metadata schema](ega-13-properties-objects-ids-block.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.dataset.json#/properties/object_id")
 
 ### object\_id Type
 
@@ -47,15 +47,15 @@ Node containing the main identifiers of the object (e.g. alias, center\_name...)
 
 all of
 
-*   any of
+* any of
 
-    *   [Check core IDs: combination of Alias and Center name](ega-12-definitions-core-identifiers-of-an-object-anyof-check-core-ids-combination-of-alias-and-center-name.md "check type definition")
+  * [Check core IDs: combination of Alias and Center name](ega-12-definitions-core-identifiers-of-an-object-anyof-check-core-ids-combination-of-alias-and-center-name.md "check type definition")
 
-    *   [Check core IDs: EGA accession ID](ega-12-definitions-core-identifiers-of-an-object-anyof-check-core-ids-ega-accession-id.md "check type definition")
+  * [Check core IDs: EGA accession ID](ega-12-definitions-core-identifiers-of-an-object-anyof-check-core-ids-ega-accession-id.md "check type definition")
 
-    *   [Check core IDs: external accessions](ega-12-definitions-core-identifiers-of-an-object-anyof-check-core-ids-external-accessions.md "check type definition")
+  * [Check core IDs: external accessions](ega-12-definitions-core-identifiers-of-an-object-anyof-check-core-ids-external-accessions.md "check type definition")
 
-*   [Check that dataset EGA ID (EGAD) is correct](ega-13-properties-objects-ids-block-allof-check-that-dataset-ega-id-egad-is-correct.md "check type definition")
+* [Check that dataset EGA ID (EGAD) is correct](ega-13-properties-objects-ids-block-allof-check-that-dataset-ega-id-egad-is-correct.md "check type definition")
 
 ## schema\_descriptor
 
@@ -63,13 +63,13 @@ This node is intended to be used to describe the schemas and standards that a JS
 
 `schema_descriptor`
 
-*   is optional
+* is optional
 
-*   Type: `object` ([Schema descriptor](ega-12-definitions-schema-descriptor.md))
+* Type: `object` ([Schema descriptor](ega-12-definitions-schema-descriptor.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA dataset metadata schema](ega-12-definitions-schema-descriptor.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.dataset.json#/properties/schema_descriptor")
+* defined in: [EGA dataset metadata schema](ega-12-definitions-schema-descriptor.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.dataset.json#/properties/schema_descriptor")
 
 ### schema\_descriptor Type
 
@@ -81,13 +81,13 @@ Free-form title of the Dataset. It should be the first picture of the dataset co
 
 `object_title`
 
-*   is required
+* is required
 
-*   Type: `string` ([Title of the dataset](ega-13-properties-title-of-the-dataset.md))
+* Type: `string` ([Title of the dataset](ega-13-properties-title-of-the-dataset.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA dataset metadata schema](ega-13-properties-title-of-the-dataset.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.dataset.json#/properties/object_title")
+* defined in: [EGA dataset metadata schema](ega-13-properties-title-of-the-dataset.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.dataset.json#/properties/object_title")
 
 ### object\_title Type
 
@@ -105,13 +105,13 @@ More extensive free-form description of the Dataset. It should include the conte
 
 `object_description`
 
-*   is optional
+* is optional
 
-*   Type: `string` ([Description of the dataset](ega-13-properties-description-of-the-dataset.md))
+* Type: `string` ([Description of the dataset](ega-13-properties-description-of-the-dataset.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA dataset metadata schema](ega-13-properties-description-of-the-dataset.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.dataset.json#/properties/object_description")
+* defined in: [EGA dataset metadata schema](ega-13-properties-description-of-the-dataset.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.dataset.json#/properties/object_description")
 
 ### object\_description Type
 
@@ -129,13 +129,13 @@ Type of the dataset, expressing the overall purpose of the dataset. Term chosen 
 
 `dataset_type`
 
-*   is required
+* is required
 
-*   Type: `string` ([Dataset type](ega-13-properties-dataset-type.md))
+* Type: `string` ([Dataset type](ega-13-properties-dataset-type.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA dataset metadata schema](ega-13-properties-dataset-type.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.dataset.json#/properties/dataset_type")
+* defined in: [EGA dataset metadata schema](ega-13-properties-dataset-type.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.dataset.json#/properties/dataset_type")
 
 ### dataset\_type Type
 
@@ -174,13 +174,13 @@ An approximate date of the desired release of the dataset. Bare in mind that thi
 
 `approximate_release_date`
 
-*   is optional
+* is optional
 
-*   Type: `string` ([Approximate release date of the dataset](ega-13-properties-approximate-release-date-of-the-dataset.md))
+* Type: `string` ([Approximate release date of the dataset](ega-13-properties-approximate-release-date-of-the-dataset.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA dataset metadata schema](ega-13-properties-approximate-release-date-of-the-dataset.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.dataset.json#/properties/approximate_release_date")
+* defined in: [EGA dataset metadata schema](ega-13-properties-approximate-release-date-of-the-dataset.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.dataset.json#/properties/approximate_release_date")
 
 ### approximate\_release\_date Type
 
@@ -188,9 +188,9 @@ An approximate date of the desired release of the dataset. Bare in mind that thi
 
 all of
 
-*   [Pattern of an EGA ISO date (YYYY-MM-DD)](ega-12-definitions-pattern-of-an-ega-iso-date-yyyy-mm-dd.md "check type definition")
+* [Pattern of an EGA ISO date (YYYY-MM-DD)](ega-12-definitions-pattern-of-an-ega-iso-date-yyyy-mm-dd.md "check type definition")
 
-*   [We cap the reminder up to 3 years](ega-13-properties-approximate-release-date-of-the-dataset-allof-we-cap-the-reminder-up-to-3-years.md "check type definition")
+* [We cap the reminder up to 3 years](ega-13-properties-approximate-release-date-of-the-dataset-allof-we-cap-the-reminder-up-to-3-years.md "check type definition")
 
 ### approximate\_release\_date Examples
 
@@ -208,13 +208,13 @@ Comprises metadata (e.g. Source or Target) of a directional association between 
 
 `dataset_relationships`
 
-*   is optional
+* is optional
 
-*   Type: `object[]` ([EGA Relationships object](ega-12-definitions-ega-relationships-object.md))
+* Type: `object[]` ([EGA Relationships object](ega-12-definitions-ega-relationships-object.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA dataset metadata schema](ega-13-properties-dataset-relationships.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.dataset.json#/properties/dataset_relationships")
+* defined in: [EGA dataset metadata schema](ega-13-properties-dataset-relationships.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.dataset.json#/properties/dataset_relationships")
 
 ### dataset\_relationships Type
 
@@ -230,13 +230,13 @@ Custom attributes of a dataset: reusable attributes to encode tag-value pairs (e
 
 `dataset_attributes`
 
-*   is optional
+* is optional
 
-*   Type: `object[]` ([Custom attribute of an object](ega-12-definitions-custom-attribute-of-an-object.md))
+* Type: `object[]` ([Custom attribute of an object](ega-12-definitions-custom-attribute-of-an-object.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA dataset metadata schema](ega-13-properties-dataset-custom-attributes.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.dataset.json#/properties/dataset_attributes")
+* defined in: [EGA dataset metadata schema](ega-13-properties-dataset-custom-attributes.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.dataset.json#/properties/dataset_attributes")
 
 ### dataset\_attributes Type
 

@@ -28,13 +28,13 @@ How the quality score was computed for the data.
 
 `quality_scoring_system`
 
-*   is required
+* is required
 
-*   Type: `string` ([Quality scoring system](ega-12-definitions-ega-file-object-properties-sequence-quality-details-properties-quality-scoring-system.md))
+* Type: `string` ([Quality scoring system](ega-12-definitions-ega-file-object-properties-sequence-quality-details-properties-quality-scoring-system.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA common metadata definitions](ega-12-definitions-ega-file-object-properties-sequence-quality-details-properties-quality-scoring-system.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-definitions.json#/definitions/file_object/properties/sequence_quality_details/properties/quality_scoring_system")
+* defined in: [EGA common metadata definitions](ega-12-definitions-ega-file-object-properties-sequence-quality-details-properties-quality-scoring-system.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-definitions.json#/definitions/file_object/properties/sequence_quality_details/properties/quality_scoring_system")
 
 ### quality\_scoring\_system Type
 
@@ -55,13 +55,13 @@ Encoding system used to represent the quality score.
 
 `quality_encoding`
 
-*   is optional
+* is optional
 
-*   Type: `string` ([Quality encoding format](ega-12-definitions-ega-file-object-properties-sequence-quality-details-properties-quality-encoding-format.md))
+* Type: `string` ([Quality encoding format](ega-12-definitions-ega-file-object-properties-sequence-quality-details-properties-quality-encoding-format.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA common metadata definitions](ega-12-definitions-ega-file-object-properties-sequence-quality-details-properties-quality-encoding-format.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-definitions.json#/definitions/file_object/properties/sequence_quality_details/properties/quality_encoding")
+* defined in: [EGA common metadata definitions](ega-12-definitions-ega-file-object-properties-sequence-quality-details-properties-quality-encoding-format.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-definitions.json#/definitions/file_object/properties/sequence_quality_details/properties/quality_encoding")
 
 ### quality\_encoding Type
 
@@ -83,13 +83,13 @@ Character used in representing the minimum quality value.  Helps specify how to 
 
 `ascii_offset`
 
-*   is optional
+* is optional
 
-*   Type: `string` ([ASCII offset](ega-12-definitions-ega-file-object-properties-sequence-quality-details-properties-ascii-offset.md))
+* Type: `string` ([ASCII offset](ega-12-definitions-ega-file-object-properties-sequence-quality-details-properties-ascii-offset.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA common metadata definitions](ega-12-definitions-ega-file-object-properties-sequence-quality-details-properties-ascii-offset.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-definitions.json#/definitions/file_object/properties/sequence_quality_details/properties/ascii_offset")
+* defined in: [EGA common metadata definitions](ega-12-definitions-ega-file-object-properties-sequence-quality-details-properties-ascii-offset.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-definitions.json#/definitions/file_object/properties/sequence_quality_details/properties/ascii_offset")
 
 ### ascii\_offset Type
 

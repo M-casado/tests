@@ -27,13 +27,13 @@ unknown ([If the assay technology is a sequencer, the experiment type has to mat
 
 `assay_technology`
 
-*   is optional
+* is optional
 
-*   Type: unknown
+* Type: unknown
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA Experiment metadata schema](ega-9-oneof-if-the-assay-technology-is-a-sequencer-the-experiment-type-has-to-match-properties-assay_technology.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.experiment.json#/oneOf/0/properties/assay_technology")
+* defined in: [EGA Experiment metadata schema](ega-9-oneof-if-the-assay-technology-is-a-sequencer-the-experiment-type-has-to-match-properties-assay_technology.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.experiment.json#/oneOf/0/properties/assay_technology")
 
 ### assay\_technology Type
 
@@ -45,13 +45,13 @@ unknown
 
 `experiment_type_specifications`
 
-*   is optional
+* is optional
 
-*   Type: unknown
+* Type: unknown
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA Experiment metadata schema](ega-9-oneof-if-the-assay-technology-is-a-sequencer-the-experiment-type-has-to-match-properties-experiment_type_specifications.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.experiment.json#/oneOf/0/properties/experiment_type_specifications")
+* defined in: [EGA Experiment metadata schema](ega-9-oneof-if-the-assay-technology-is-a-sequencer-the-experiment-type-has-to-match-properties-experiment_type_specifications.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.experiment.json#/oneOf/0/properties/experiment_type_specifications")
 
 ### experiment\_type\_specifications Type
 

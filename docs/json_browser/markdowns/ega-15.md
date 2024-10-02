@@ -27,13 +27,13 @@ This node is intended to be used to describe the schemas and standards that a JS
 
 `schema_descriptor`
 
-*   is optional
+* is optional
 
-*   Type: `object` ([Schema descriptor](ega-12-definitions-schema-descriptor.md))
+* Type: `object` ([Schema descriptor](ega-12-definitions-schema-descriptor.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA object-set metadata schema](ega-12-definitions-schema-descriptor.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.object-set.json#/properties/schema_descriptor")
+* defined in: [EGA object-set metadata schema](ega-12-definitions-schema-descriptor.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.object-set.json#/properties/schema_descriptor")
 
 ### schema\_descriptor Type
 
@@ -45,13 +45,13 @@ The array per se containing the list of metadata objects to be validated. For ea
 
 `object_array`
 
-*   is required
+* is required
 
-*   Type: an array of merged types ([Schemas being conditionally applied based on value of 'object\_type' from 'schema\_descriptor' in each object.](ega-15-properties-array-containing-metadata-objects-schemas-being-conditionally-applied-based-on-value-of-object_type-from-schema_descriptor-in-each-object.md))
+* Type: an array of merged types ([Schemas being conditionally applied based on value of 'object\_type' from 'schema\_descriptor' in each object.](ega-15-properties-array-containing-metadata-objects-schemas-being-conditionally-applied-based-on-value-of-object_type-from-schema_descriptor-in-each-object.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA object-set metadata schema](ega-15-properties-array-containing-metadata-objects.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.object-set.json#/properties/object_array")
+* defined in: [EGA object-set metadata schema](ega-15-properties-array-containing-metadata-objects.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.object-set.json#/properties/object_array")
 
 ### object\_array Type
 

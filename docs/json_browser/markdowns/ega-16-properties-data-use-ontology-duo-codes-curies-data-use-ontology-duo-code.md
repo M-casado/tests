@@ -16,7 +16,7 @@ Single Data Use Ontology (DUO) code in Shorter Compact URI (CURIE) format.
 
 all of
 
-*   [Compact URI (CURIE) pattern](ega-12-definitions-compact-uri-curie-pattern.md "check type definition")
+* [Compact URI (CURIE) pattern](ega-12-definitions-compact-uri-curie-pattern.md "check type definition")
 
 ## items Examples
 

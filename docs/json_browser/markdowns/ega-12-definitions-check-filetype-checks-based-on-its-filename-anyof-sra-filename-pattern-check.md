@@ -16,10 +16,10 @@ unknown ([SRA Filename pattern-check](ega-12-definitions-check-filetype-checks-b
 
 # 8 Properties
 
-| Property              | Type          | Required | Nullable       | Defined by                                                                                                                                                                                                                                                                                                                       |
-| :-------------------- | :------------ | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [filetype](#filetype) | Not specified | Optional | cannot be null | [EGA common metadata definitions](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-sra-filename-pattern-check-properties-filetype.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-definitions.json#/definitions/filename-filetype-pattern-check/anyOf/8/properties/filetype") |
-| [filename](#filename) | `string`      | Optional | cannot be null | [EGA common metadata definitions](ega-12-definitions-filename-pattern-of-a-sra-file.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-definitions.json#/definitions/filename-filetype-pattern-check/anyOf/8/properties/filename")                                                                   |
+| Property              | Type          | Required | Nullable       | Defined by                                                                                                                                                                                                                                                                                                                                             |
+| :-------------------- | :------------ | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [filetype](#filetype) | Not specified | Optional | cannot be null | [EGA common metadata definitions](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-sra-filename-pattern-check-properties-filetype.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-definitions.json#/definitions/filename-filetype-pattern-check/anyOf/8/properties/filetype")                       |
+| [filename](#filename) | `string`      | Optional | cannot be null | [EGA common metadata definitions](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-sra-filename-pattern-check-properties-filename-pattern-of-a-sra-file.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-definitions.json#/definitions/filename-filetype-pattern-check/anyOf/8/properties/filename") |
 
 ## filetype
 
@@ -27,13 +27,13 @@ unknown ([SRA Filename pattern-check](ega-12-definitions-check-filetype-checks-b
 
 `filetype`
 
-*   is optional
+* is optional
 
-*   Type: unknown
+* Type: unknown
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA common metadata definitions](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-sra-filename-pattern-check-properties-filetype.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-definitions.json#/definitions/filename-filetype-pattern-check/anyOf/8/properties/filetype")
+* defined in: [EGA common metadata definitions](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-sra-filename-pattern-check-properties-filetype.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-definitions.json#/definitions/filename-filetype-pattern-check/anyOf/8/properties/filetype")
 
 ### filetype Type
 
@@ -53,17 +53,17 @@ This object exists to hold the filename pattern that a 'SRA' filetype\_id would 
 
 `filename`
 
-*   is optional
+* is optional
 
-*   Type: `string` ([Filename pattern of a SRA file](ega-12-definitions-filename-pattern-of-a-sra-file.md))
+* Type: `string` ([Filename pattern of a SRA file](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-sra-filename-pattern-check-properties-filename-pattern-of-a-sra-file.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA common metadata definitions](ega-12-definitions-filename-pattern-of-a-sra-file.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-definitions.json#/definitions/filename-filetype-pattern-check/anyOf/8/properties/filename")
+* defined in: [EGA common metadata definitions](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-sra-filename-pattern-check-properties-filename-pattern-of-a-sra-file.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-definitions.json#/definitions/filename-filetype-pattern-check/anyOf/8/properties/filename")
 
 ### filename Type
 
-`string` ([Filename pattern of a SRA file](ega-12-definitions-filename-pattern-of-a-sra-file.md))
+`string` ([Filename pattern of a SRA file](ega-12-definitions-check-filetype-checks-based-on-its-filename-anyof-sra-filename-pattern-check-properties-filename-pattern-of-a-sra-file.md))
 
 ### filename Constraints
 

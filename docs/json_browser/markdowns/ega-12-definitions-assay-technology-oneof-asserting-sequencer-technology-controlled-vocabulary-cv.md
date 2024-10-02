@@ -27,13 +27,13 @@ unknown ([Asserting sequencer technology controlled vocabulary (CV)](ega-12-defi
 
 `assay_instrument`
 
-*   is optional
+* is optional
 
-*   Type: unknown
+* Type: unknown
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA common metadata definitions](ega-12-definitions-assay-technology-oneof-asserting-sequencer-technology-controlled-vocabulary-cv-properties-assay_instrument.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-definitions.json#/definitions/assay_technology_descriptor/oneOf/1/properties/assay_instrument")
+* defined in: [EGA common metadata definitions](ega-12-definitions-assay-technology-oneof-asserting-sequencer-technology-controlled-vocabulary-cv-properties-assay_instrument.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.common-definitions.json#/definitions/assay_technology_descriptor/oneOf/1/properties/assay_instrument")
 
 ### assay\_instrument Type
 
@@ -53,13 +53,13 @@ Controlled Vocabulary (CV) list for the sequencing instrument platforms. Commonl
 
 `assay_instrument_platform`
 
-*   is optional
+* is optional
 
-*   Type: `string` ([EGA Controlled Vocabulary (CV) for sequencing instrument platforms](ega-12-definitions-assay-technology-oneof-asserting-sequencer-technology-controlled-vocabulary-cv-properties-ega-controlled-vocabulary-cv-for-sequencing-instrument-platforms.md))
+* Type: `string` ([EGA Controlled Vocabulary (CV) for sequencing instrument platforms](ega-12-definitions-assay-technology-oneof-asserting-sequencer-technology-controlled-vocabulary-cv-properties-ega-controlled-vocabulary-cv-for-sequencing-instrument-platforms.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA common metadata definitions](ega-12-definitions-assay-technology-oneof-asserting-sequencer-technology-controlled-vocabulary-cv-properties-ega-controlled-vocabulary-cv-for-sequencing-instrument-platforms.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/controlled_vocabulary_schemas/EGA.cv.instrument_platforms_sequencing.json#/definitions/assay_technology_descriptor/oneOf/1/properties/assay_instrument_platform")
+* defined in: [EGA common metadata definitions](ega-12-definitions-assay-technology-oneof-asserting-sequencer-technology-controlled-vocabulary-cv-properties-ega-controlled-vocabulary-cv-for-sequencing-instrument-platforms.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/controlled_vocabulary_schemas/EGA.cv.instrument_platforms_sequencing.json#/definitions/assay_technology_descriptor/oneOf/1/properties/assay_instrument_platform")
 
 ### assay\_instrument\_platform Type
 

@@ -32,13 +32,13 @@ Node containing the main identifiers of the object (e.g. alias, center\_name...)
 
 `object_id`
 
-*   is required
+* is required
 
-*   Type: `object` ([Object's IDs block](ega-8-properties-objects-ids-block.md))
+* Type: `object` ([Object's IDs block](ega-8-properties-objects-ids-block.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA DAC metadata schema](ega-8-properties-objects-ids-block.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.DAC.json#/properties/object_id")
+* defined in: [EGA DAC metadata schema](ega-8-properties-objects-ids-block.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.DAC.json#/properties/object_id")
 
 ### object\_id Type
 
@@ -46,15 +46,15 @@ Node containing the main identifiers of the object (e.g. alias, center\_name...)
 
 all of
 
-*   any of
+* any of
 
-    *   [Check core IDs: combination of Alias and Center name](ega-12-definitions-core-identifiers-of-an-object-anyof-check-core-ids-combination-of-alias-and-center-name.md "check type definition")
+  * [Check core IDs: combination of Alias and Center name](ega-12-definitions-core-identifiers-of-an-object-anyof-check-core-ids-combination-of-alias-and-center-name.md "check type definition")
 
-    *   [Check core IDs: EGA accession ID](ega-12-definitions-core-identifiers-of-an-object-anyof-check-core-ids-ega-accession-id.md "check type definition")
+  * [Check core IDs: EGA accession ID](ega-12-definitions-core-identifiers-of-an-object-anyof-check-core-ids-ega-accession-id.md "check type definition")
 
-    *   [Check core IDs: external accessions](ega-12-definitions-core-identifiers-of-an-object-anyof-check-core-ids-external-accessions.md "check type definition")
+  * [Check core IDs: external accessions](ega-12-definitions-core-identifiers-of-an-object-anyof-check-core-ids-external-accessions.md "check type definition")
 
-*   [Check that DAC EGA ID (EGAC) is correct](ega-8-properties-objects-ids-block-allof-check-that-dac-ega-id-egac-is-correct.md "check type definition")
+* [Check that DAC EGA ID (EGAC) is correct](ega-8-properties-objects-ids-block-allof-check-that-dac-ega-id-egac-is-correct.md "check type definition")
 
 ## schema\_descriptor
 
@@ -62,13 +62,13 @@ This node is intended to be used to describe the schemas and standards that a JS
 
 `schema_descriptor`
 
-*   is optional
+* is optional
 
-*   Type: `object` ([Schema descriptor](ega-12-definitions-schema-descriptor.md))
+* Type: `object` ([Schema descriptor](ega-12-definitions-schema-descriptor.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA DAC metadata schema](ega-12-definitions-schema-descriptor.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.DAC.json#/properties/schema_descriptor")
+* defined in: [EGA DAC metadata schema](ega-12-definitions-schema-descriptor.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.DAC.json#/properties/schema_descriptor")
 
 ### schema\_descriptor Type
 
@@ -80,13 +80,13 @@ Short free-form text that can be used to call out DAC records in searches or dis
 
 `object_title`
 
-*   is optional
+* is optional
 
-*   Type: `string` ([Title of the DAC](ega-8-properties-title-of-the-dac.md))
+* Type: `string` ([Title of the DAC](ega-8-properties-title-of-the-dac.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA DAC metadata schema](ega-8-properties-title-of-the-dac.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.DAC.json#/properties/object_title")
+* defined in: [EGA DAC metadata schema](ega-8-properties-title-of-the-dac.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.DAC.json#/properties/object_title")
 
 ### object\_title Type
 
@@ -104,13 +104,13 @@ An in-depth description of the DAC, including its overall purpose or nature of s
 
 `object_description`
 
-*   is optional
+* is optional
 
-*   Type: `string` ([Description of the DAC](ega-8-properties-description-of-the-dac.md))
+* Type: `string` ([Description of the DAC](ega-8-properties-description-of-the-dac.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA DAC metadata schema](ega-8-properties-description-of-the-dac.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.DAC.json#/properties/object_description")
+* defined in: [EGA DAC metadata schema](ega-8-properties-description-of-the-dac.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.DAC.json#/properties/object_description")
 
 ### object\_description Type
 
@@ -128,13 +128,13 @@ Object containing the main contact's and optional additional contact's details.
 
 `dac_contacts`
 
-*   is required
+* is required
 
-*   Type: `object` ([DAC contacts' details](ega-8-properties-dac-contacts-details.md))
+* Type: `object` ([DAC contacts' details](ega-8-properties-dac-contacts-details.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA DAC metadata schema](ega-8-properties-dac-contacts-details.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.DAC.json#/properties/dac_contacts")
+* defined in: [EGA DAC metadata schema](ega-8-properties-dac-contacts-details.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.DAC.json#/properties/dac_contacts")
 
 ### dac\_contacts Type
 
@@ -146,13 +146,13 @@ Comprises metadata (e.g. Source or Target) of a directional association between 
 
 `dac_relationships`
 
-*   is optional
+* is optional
 
-*   Type: `object[]` ([EGA Relationships object](ega-12-definitions-ega-relationships-object.md))
+* Type: `object[]` ([EGA Relationships object](ega-12-definitions-ega-relationships-object.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA DAC metadata schema](ega-8-properties-dac-relationships.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.DAC.json#/properties/dac_relationships")
+* defined in: [EGA DAC metadata schema](ega-8-properties-dac-relationships.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.DAC.json#/properties/dac_relationships")
 
 ### dac\_relationships Type
 
@@ -168,13 +168,13 @@ Custom attributes of a DAC: reusable attributes to encode tag-value pairs (e.g. 
 
 `dac_attributes`
 
-*   is optional
+* is optional
 
-*   Type: `object[]` ([Custom attribute of an object](ega-12-definitions-custom-attribute-of-an-object.md))
+* Type: `object[]` ([Custom attribute of an object](ega-12-definitions-custom-attribute-of-an-object.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA DAC metadata schema](ega-8-properties-dac-custom-attributes.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.DAC.json#/properties/dac_attributes")
+* defined in: [EGA DAC metadata schema](ega-8-properties-dac-custom-attributes.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.DAC.json#/properties/dac_attributes")
 
 ### dac\_attributes Type
 

@@ -16,7 +16,7 @@ Ontology term in CURIE format (e.g. 'UBERON:0000167') of the sampling site. The 
 
 all of
 
-*   [Compact URI (CURIE) pattern](ega-12-definitions-compact-uri-curie-pattern.md "check type definition")
+* [Compact URI (CURIE) pattern](ega-12-definitions-compact-uri-curie-pattern.md "check type definition")
 
 ## sample\_collection\_site\_curie Examples
 

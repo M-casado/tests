@@ -16,13 +16,13 @@ A unique (and typically persistent) identifier of a gene in a database, that is 
 
 one (and only one) of
 
-*   all of
+* all of
 
-    *   [Compact URI (CURIE) pattern](ega-12-definitions-compact-uri-curie-pattern.md "check type definition")
+  * [Compact URI (CURIE) pattern](ega-12-definitions-ncbi-gene-identifier-curie-pattern-allof-compact-uri-curie-pattern.md "check type definition")
 
-*   all of
+* all of
 
-    *   [Compact URI (CURIE) pattern](ega-12-definitions-compact-uri-curie-pattern.md "check type definition")
+  * [Compact URI (CURIE) pattern](ega-12-definitions-hgnc-identifier-curie-pattern-allof-compact-uri-curie-pattern.md "check type definition")
 
 ## gene\_id\_curie Examples
 

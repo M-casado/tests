@@ -28,13 +28,13 @@ A unique identifier (e.g. 'Donor-10031') for the subject the sample derives from
 
 `subject_id`
 
-*   is required
+* is required
 
-*   Type: `string` ([Subject ID](ega-12-definitions-subject-id.md))
+* Type: `string` ([Subject ID](ega-12-definitions-subject-id.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA individual metadata schema](ega-12-definitions-subject-id.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.individual.json#/properties/minimal_public_attributes/properties/subject_id")
+* defined in: [EGA individual metadata schema](ega-12-definitions-subject-id.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.individual.json#/properties/minimal_public_attributes/properties/subject_id")
 
 ### subject\_id Type
 
@@ -64,13 +64,13 @@ An organismal quality inhering in a bearer by virtue of the bearer's physical ex
 
 `biological_sex`
 
-*   is required
+* is required
 
-*   Type: `string` ([Biological sex of the individual](ega-12-definitions-biological-sex-of-the-individual.md))
+* Type: `string` ([Biological sex of the individual](ega-12-definitions-biological-sex-of-the-individual.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA individual metadata schema](ega-12-definitions-biological-sex-of-the-individual.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.individual.json#/properties/minimal_public_attributes/properties/biological_sex")
+* defined in: [EGA individual metadata schema](ega-12-definitions-biological-sex-of-the-individual.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.individual.json#/properties/minimal_public_attributes/properties/biological_sex")
 
 ### biological\_sex Type
 
@@ -99,13 +99,13 @@ A state of being, an external or environmental factor or a treatment observed or
 
 `phenotype`
 
-*   is required
+* is required
 
-*   Type: `object` ([Experimental condition](ega-12-definitions-experimental-condition.md))
+* Type: `object` ([Experimental condition](ega-12-definitions-experimental-condition.md))
 
-*   cannot be null
+* cannot be null
 
-*   defined in: [EGA individual metadata schema](ega-12-definitions-experimental-condition.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.individual.json#/properties/minimal_public_attributes/properties/phenotype")
+* defined in: [EGA individual metadata schema](ega-12-definitions-experimental-condition.md "https://github.com/EbiEga/ega-metadata-schema/tree/main/schemas/EGA.individual.json#/properties/minimal_public_attributes/properties/phenotype")
 
 ### phenotype Type
 
