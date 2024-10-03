@@ -39,6 +39,6 @@ jobs:
     - name: Run SOP Review Check
       run: |
         # To vary the day(s) threshold, modify "-dr" - 365 --> One full year since last edit #!! Cambiar dias
-        python3 check_sop_reviews.py ../sops/ -dr 3 -v 1 -ct
+        python3 scripts/check_sop_reviews.py sops/ -dr 3 -v 1 -ct
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Uses GitHub's automatic token for auth
