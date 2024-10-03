@@ -11,9 +11,8 @@
 name: Monthly SOP Review Check
 
 on:
-  schedule:
-    #! - cron: '0 0 1 * *'  # This runs at midnight on the 1st of every month
-    - cron: '*/5 * * * *'  # This runs every 5 minutes
+  # schedule:
+  #   - cron: '0 0 1 * *'  # This runs at midnight on the 1st of every month
   workflow_dispatch:  # Allows for manual triggering of the workflow
 
 jobs:
@@ -38,7 +37,7 @@ jobs:
 
     - name: Run SOP Review Check
       run: |
-        # To vary the day(s) threshold, modify "-dr" - 365 --> One full year since last edit #!! Cambiar dias
-        python3 scripts/check_sop_reviews.py sops/ -dr 3 -v 1 -ct
+        # To vary the day(s) threshold, modify "-dr". 365 --> One full year since last edit
+        python3 scripts/check_sop_reviews.py sops/ -dr 365 -v 1 -ct
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Uses GitHub's automatic token for auth
